@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shivam/sbpl/codes/xytheta/xytheta.cpp
+cstring
+-
+iostream
+-
+string
+-
+sbpl/headers.h
+-
+sbpl/planners/mhaplanner.h
+/home/shivam/sbpl/codes/xytheta/sbpl/planners/mhaplanner.h
+

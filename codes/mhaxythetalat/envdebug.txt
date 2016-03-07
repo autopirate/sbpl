@@ -1,0 +1,561 @@
+footprint cells (size=1):
+0 0 (cont: 0.013 0.013)
+action tind= 0 aind= 0: dX=  1 dY=  0 endtheta=  0 (  0.00 degs ->   0.00 degs) cost=  25 (mprimID   0:   1   0   0) numofintermcells = 2 numofintercells=1
+action tind= 0 aind= 1: dX=  8 dY=  0 endtheta=  0 (  0.00 degs ->   0.00 degs) cost= 200 (mprimID   1:   8   0   0) numofintermcells = 9 numofintercells=8
+action tind= 0 aind= 2: dX= -1 dY=  0 endtheta=  0 (  0.00 degs ->   0.00 degs) cost= 125 (mprimID   2:  -1   0   0) numofintermcells = 2 numofintercells=1
+action tind= 0 aind= 3: dX=  8 dY=  1 endtheta=  1 (  0.00 degs ->  22.50 degs) cost=3000 (mprimID   3:   8   1   1) numofintermcells = 9 numofintercells=10
+action tind= 0 aind= 4: dX=  8 dY= -1 endtheta= 15 (  0.00 degs -> 337.50 degs) cost=3003 (mprimID   4:   8  -1  15) numofintermcells = 9 numofintercells=10
+action tind= 0 aind= 5: dX=  0 dY=  0 endtheta=  1 (  0.00 degs ->  22.50 degs) cost=1000 (mprimID   5:   0   0   1) numofintermcells = 1 numofintercells=0
+action tind= 0 aind= 6: dX=  0 dY=  0 endtheta= 15 (  0.00 degs -> 337.50 degs) cost=1001 (mprimID   6:   0   0  15) numofintermcells = 1 numofintercells=0
+action tind= 1 aind= 0: dX=  2 dY=  1 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost=  56 (mprimID   0:   2   1   1) numofintermcells = 4 numofintercells=4
+action tind= 1 aind= 1: dX=  6 dY=  3 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost= 168 (mprimID   1:   6   3   1) numofintermcells = 10 numofintercells=12
+action tind= 1 aind= 2: dX= -2 dY= -1 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost= 280 (mprimID   2:  -2  -1   1) numofintermcells = 4 numofintercells=4
+action tind= 1 aind= 3: dX=  5 dY=  4 endtheta=  2 ( 22.50 degs ->  38.12 degs) cost=3000 (mprimID   3:   5   4   2) numofintermcells = 8 numofintercells=12
+action tind= 1 aind= 4: dX=  7 dY=  2 endtheta=  0 ( 22.50 degs ->   0.00 degs) cost=3000 (mprimID   4:   7   2   0) numofintermcells = 8 numofintercells=11
+action tind= 1 aind= 5: dX=  0 dY=  0 endtheta=  2 ( 22.50 degs ->  45.00 degs) cost=1000 (mprimID   5:   0   0   2) numofintermcells = 1 numofintercells=0
+action tind= 1 aind= 6: dX=  0 dY=  0 endtheta=  0 ( 22.50 degs ->   0.00 degs) cost=1000 (mprimID   6:   0   0   0) numofintermcells = 1 numofintercells=0
+action tind= 2 aind= 0: dX=  1 dY=  1 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost=  36 (mprimID   0:   1   1   2) numofintermcells = 2 numofintercells=3
+action tind= 2 aind= 1: dX=  6 dY=  6 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost= 213 (mprimID   1:   6   6   2) numofintermcells = 7 numofintercells=18
+action tind= 2 aind= 2: dX= -1 dY= -1 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost= 180 (mprimID   2:  -1  -1   2) numofintermcells = 2 numofintercells=3
+action tind= 2 aind= 3: dX=  5 dY=  7 endtheta=  3 ( 45.00 degs ->  67.50 degs) cost=3000 (mprimID   3:   5   7   3) numofintermcells = 9 numofintercells=15
+action tind= 2 aind= 4: dX=  7 dY=  5 endtheta=  1 ( 45.00 degs ->  22.50 degs) cost=3000 (mprimID   4:   7   5   1) numofintermcells = 9 numofintercells=14
+action tind= 2 aind= 5: dX=  0 dY=  0 endtheta=  3 ( 45.00 degs ->  67.50 degs) cost=1000 (mprimID   5:   0   0   3) numofintermcells = 1 numofintercells=0
+action tind= 2 aind= 6: dX=  0 dY=  0 endtheta=  1 ( 45.00 degs ->  22.50 degs) cost=1000 (mprimID   6:   0   0   1) numofintermcells = 1 numofintercells=0
+action tind= 3 aind= 0: dX=  1 dY=  2 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost=  56 (mprimID   0:   1   2   3) numofintermcells = 4 numofintercells=4
+action tind= 3 aind= 1: dX=  3 dY=  6 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost= 168 (mprimID   1:   3   6   3) numofintermcells = 10 numofintercells=12
+action tind= 3 aind= 2: dX= -1 dY= -2 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost= 280 (mprimID   2:  -1  -2   3) numofintermcells = 4 numofintercells=4
+action tind= 3 aind= 3: dX=  4 dY=  5 endtheta=  2 ( 67.50 degs ->  51.88 degs) cost=3000 (mprimID   3:   4   5   2) numofintermcells = 8 numofintercells=12
+action tind= 3 aind= 4: dX=  2 dY=  7 endtheta=  4 ( 67.50 degs ->  90.00 degs) cost=3000 (mprimID   4:   2   7   4) numofintermcells = 8 numofintercells=12
+action tind= 3 aind= 5: dX=  0 dY=  0 endtheta=  2 ( 67.50 degs ->  45.00 degs) cost=1000 (mprimID   5:   0   0   2) numofintermcells = 1 numofintercells=0
+action tind= 3 aind= 6: dX=  0 dY=  0 endtheta=  4 ( 67.50 degs ->  90.00 degs) cost=1000 (mprimID   6:   0   0   4) numofintermcells = 1 numofintercells=0
+action tind= 4 aind= 0: dX=  0 dY=  1 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost=  25 (mprimID   0:   0   1   4) numofintermcells = 2 numofintercells=1
+action tind= 4 aind= 1: dX=  0 dY=  8 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost= 200 (mprimID   1:   0   8   4) numofintermcells = 9 numofintercells=8
+action tind= 4 aind= 2: dX=  0 dY= -1 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost= 125 (mprimID   2:   0  -1   4) numofintermcells = 2 numofintercells=1
+action tind= 4 aind= 3: dX= -1 dY=  8 endtheta=  5 ( 90.00 degs -> 112.50 degs) cost=3000 (mprimID   3:  -1   8   5) numofintermcells = 9 numofintercells=10
+action tind= 4 aind= 4: dX=  1 dY=  8 endtheta=  3 ( 90.00 degs ->  67.50 degs) cost=3000 (mprimID   4:   1   8   3) numofintermcells = 9 numofintercells=10
+action tind= 4 aind= 5: dX=  0 dY=  0 endtheta=  5 ( 90.00 degs -> 112.50 degs) cost=1000 (mprimID   5:   0   0   5) numofintermcells = 1 numofintercells=0
+action tind= 4 aind= 6: dX=  0 dY=  0 endtheta=  3 ( 90.00 degs ->  67.50 degs) cost=1000 (mprimID   6:   0   0   3) numofintermcells = 1 numofintercells=0
+action tind= 5 aind= 0: dX= -1 dY=  2 endtheta=  5 (112.50 degs -> 112.50 degs) cost=  56 (mprimID   0:  -1   2   5) numofintermcells = 4 numofintercells=4
+action tind= 5 aind= 1: dX= -3 dY=  6 endtheta=  5 (112.50 degs -> 112.50 degs) cost= 168 (mprimID   1:  -3   6   5) numofintermcells = 10 numofintercells=12
+action tind= 5 aind= 2: dX=  1 dY= -2 endtheta=  5 (112.50 degs -> 112.50 degs) cost= 280 (mprimID   2:   1  -2   5) numofintermcells = 4 numofintercells=4
+action tind= 5 aind= 3: dX= -4 dY=  5 endtheta=  6 (112.50 degs -> 128.12 degs) cost=3000 (mprimID   3:  -4   5   6) numofintermcells = 9 numofintercells=12
+action tind= 5 aind= 4: dX= -2 dY=  7 endtheta=  4 (112.50 degs ->  90.00 degs) cost=3000 (mprimID   4:  -2   7   4) numofintermcells = 8 numofintercells=11
+action tind= 5 aind= 5: dX=  0 dY=  0 endtheta=  6 (112.50 degs -> 135.00 degs) cost=1000 (mprimID   5:   0   0   6) numofintermcells = 1 numofintercells=0
+action tind= 5 aind= 6: dX=  0 dY=  0 endtheta=  4 (112.50 degs ->  90.00 degs) cost=1000 (mprimID   6:   0   0   4) numofintermcells = 1 numofintercells=0
+action tind= 6 aind= 0: dX= -1 dY=  1 endtheta=  6 (135.00 degs -> 135.00 degs) cost=  36 (mprimID   0:  -1   1   6) numofintermcells = 2 numofintercells=3
+action tind= 6 aind= 1: dX= -6 dY=  6 endtheta=  6 (135.00 degs -> 135.00 degs) cost= 213 (mprimID   1:  -6   6   6) numofintermcells = 7 numofintercells=18
+action tind= 6 aind= 2: dX=  1 dY= -1 endtheta=  6 (135.00 degs -> 135.00 degs) cost= 180 (mprimID   2:   1  -1   6) numofintermcells = 2 numofintercells=3
+action tind= 6 aind= 3: dX= -7 dY=  5 endtheta=  7 (135.00 degs -> 157.50 degs) cost=3000 (mprimID   3:  -7   5   7) numofintermcells = 9 numofintercells=15
+action tind= 6 aind= 4: dX= -5 dY=  7 endtheta=  5 (135.00 degs -> 112.50 degs) cost=3000 (mprimID   4:  -5   7   5) numofintermcells = 9 numofintercells=14
+action tind= 6 aind= 5: dX=  0 dY=  0 endtheta=  7 (135.00 degs -> 157.50 degs) cost=1000 (mprimID   5:   0   0   7) numofintermcells = 1 numofintercells=0
+action tind= 6 aind= 6: dX=  0 dY=  0 endtheta=  5 (135.00 degs -> 112.50 degs) cost=1000 (mprimID   6:   0   0   5) numofintermcells = 1 numofintercells=0
+action tind= 7 aind= 0: dX= -2 dY=  1 endtheta=  7 (157.50 degs -> 157.50 degs) cost=  56 (mprimID   0:  -2   1   7) numofintermcells = 4 numofintercells=4
+action tind= 7 aind= 1: dX= -6 dY=  3 endtheta=  7 (157.50 degs -> 157.50 degs) cost= 168 (mprimID   1:  -6   3   7) numofintermcells = 10 numofintercells=12
+action tind= 7 aind= 2: dX=  2 dY= -1 endtheta=  7 (157.50 degs -> 157.50 degs) cost= 280 (mprimID   2:   2  -1   7) numofintermcells = 4 numofintercells=4
+action tind= 7 aind= 3: dX= -5 dY=  4 endtheta=  6 (157.50 degs -> 141.88 degs) cost=3000 (mprimID   3:  -5   4   6) numofintermcells = 8 numofintercells=12
+action tind= 7 aind= 4: dX= -7 dY=  2 endtheta=  8 (157.50 degs -> 180.00 degs) cost=3000 (mprimID   4:  -7   2   8) numofintermcells = 8 numofintercells=12
+action tind= 7 aind= 5: dX=  0 dY=  0 endtheta=  6 (157.50 degs -> 135.00 degs) cost=1000 (mprimID   5:   0   0   6) numofintermcells = 1 numofintercells=0
+action tind= 7 aind= 6: dX=  0 dY=  0 endtheta=  8 (157.50 degs -> 180.00 degs) cost=1000 (mprimID   6:   0   0   8) numofintermcells = 1 numofintercells=0
+action tind= 8 aind= 0: dX= -1 dY=  0 endtheta=  8 (180.00 degs -> 180.00 degs) cost=  25 (mprimID   0:  -1   0   8) numofintermcells = 2 numofintercells=1
+action tind= 8 aind= 1: dX= -8 dY=  0 endtheta=  8 (180.00 degs -> 180.00 degs) cost= 200 (mprimID   1:  -8   0   8) numofintermcells = 9 numofintercells=8
+action tind= 8 aind= 2: dX=  1 dY=  0 endtheta=  8 (180.00 degs -> 180.00 degs) cost= 125 (mprimID   2:   1   0   8) numofintermcells = 2 numofintercells=1
+action tind= 8 aind= 3: dX= -8 dY= -1 endtheta=  9 (180.00 degs -> 202.50 degs) cost=3000 (mprimID   3:  -8  -1   9) numofintermcells = 9 numofintercells=10
+action tind= 8 aind= 4: dX= -8 dY=  1 endtheta=  7 (180.00 degs -> 157.50 degs) cost=3000 (mprimID   4:  -8   1   7) numofintermcells = 9 numofintercells=10
+action tind= 8 aind= 5: dX=  0 dY=  0 endtheta=  9 (180.00 degs -> 202.50 degs) cost=1000 (mprimID   5:   0   0   9) numofintermcells = 1 numofintercells=0
+action tind= 8 aind= 6: dX=  0 dY=  0 endtheta=  7 (180.00 degs -> 157.50 degs) cost=1000 (mprimID   6:   0   0   7) numofintermcells = 1 numofintercells=0
+action tind= 9 aind= 0: dX= -2 dY= -1 endtheta=  9 (202.50 degs -> 202.50 degs) cost=  56 (mprimID   0:  -2  -1   9) numofintermcells = 4 numofintercells=4
+action tind= 9 aind= 1: dX= -6 dY= -3 endtheta=  9 (202.50 degs -> 202.50 degs) cost= 168 (mprimID   1:  -6  -3   9) numofintermcells = 10 numofintercells=12
+action tind= 9 aind= 2: dX=  2 dY=  1 endtheta=  9 (202.50 degs -> 202.50 degs) cost= 280 (mprimID   2:   2   1   9) numofintermcells = 4 numofintercells=4
+action tind= 9 aind= 3: dX= -5 dY= -4 endtheta= 10 (202.50 degs -> 218.13 degs) cost=3000 (mprimID   3:  -5  -4  10) numofintermcells = 9 numofintercells=12
+action tind= 9 aind= 4: dX= -7 dY= -2 endtheta=  8 (202.50 degs -> 180.00 degs) cost=3000 (mprimID   4:  -7  -2   8) numofintermcells = 8 numofintercells=12
+action tind= 9 aind= 5: dX=  0 dY=  0 endtheta= 10 (202.50 degs -> 225.00 degs) cost=1000 (mprimID   5:   0   0  10) numofintermcells = 1 numofintercells=0
+action tind= 9 aind= 6: dX=  0 dY=  0 endtheta=  8 (202.50 degs -> 180.00 degs) cost=1000 (mprimID   6:   0   0   8) numofintermcells = 1 numofintercells=0
+action tind=10 aind= 0: dX= -1 dY= -1 endtheta= 10 (225.00 degs -> 225.00 degs) cost=  36 (mprimID   0:  -1  -1  10) numofintermcells = 2 numofintercells=3
+action tind=10 aind= 1: dX= -6 dY= -6 endtheta= 10 (225.00 degs -> 225.00 degs) cost= 213 (mprimID   1:  -6  -6  10) numofintermcells = 7 numofintercells=18
+action tind=10 aind= 2: dX=  1 dY=  1 endtheta= 10 (225.00 degs -> 225.00 degs) cost= 180 (mprimID   2:   1   1  10) numofintermcells = 2 numofintercells=3
+action tind=10 aind= 3: dX= -5 dY= -7 endtheta= 11 (225.00 degs -> 247.50 degs) cost=3000 (mprimID   3:  -5  -7  11) numofintermcells = 9 numofintercells=14
+action tind=10 aind= 4: dX= -7 dY= -5 endtheta=  9 (225.00 degs -> 202.50 degs) cost=3000 (mprimID   4:  -7  -5   9) numofintermcells = 9 numofintercells=15
+action tind=10 aind= 5: dX=  0 dY=  0 endtheta= 11 (225.00 degs -> 247.50 degs) cost=1000 (mprimID   5:   0   0  11) numofintermcells = 1 numofintercells=0
+action tind=10 aind= 6: dX=  0 dY=  0 endtheta=  9 (225.00 degs -> 202.50 degs) cost=1000 (mprimID   6:   0   0   9) numofintermcells = 1 numofintercells=0
+action tind=11 aind= 0: dX= -1 dY= -2 endtheta= 11 (247.50 degs -> 247.50 degs) cost=  56 (mprimID   0:  -1  -2  11) numofintermcells = 4 numofintercells=4
+action tind=11 aind= 1: dX= -3 dY= -6 endtheta= 11 (247.50 degs -> 247.50 degs) cost= 168 (mprimID   1:  -3  -6  11) numofintermcells = 10 numofintercells=12
+action tind=11 aind= 2: dX=  1 dY=  2 endtheta= 11 (247.50 degs -> 247.50 degs) cost= 280 (mprimID   2:   1   2  11) numofintermcells = 4 numofintercells=4
+action tind=11 aind= 3: dX= -4 dY= -5 endtheta= 10 (247.50 degs -> 231.88 degs) cost=3000 (mprimID   3:  -4  -5  10) numofintermcells = 9 numofintercells=12
+action tind=11 aind= 4: dX= -2 dY= -7 endtheta= 12 (247.50 degs -> 270.00 degs) cost=3003 (mprimID   4:  -2  -7  12) numofintermcells = 8 numofintercells=11
+action tind=11 aind= 5: dX=  0 dY=  0 endtheta= 10 (247.50 degs -> 225.00 degs) cost=1000 (mprimID   5:   0   0  10) numofintermcells = 1 numofintercells=0
+action tind=11 aind= 6: dX=  0 dY=  0 endtheta= 12 (247.50 degs -> 270.00 degs) cost=1001 (mprimID   6:   0   0  12) numofintermcells = 1 numofintercells=0
+action tind=12 aind= 0: dX=  0 dY= -1 endtheta= 12 (270.00 degs -> 270.00 degs) cost=  25 (mprimID   0:   0  -1  12) numofintermcells = 2 numofintercells=1
+action tind=12 aind= 1: dX=  0 dY= -8 endtheta= 12 (270.00 degs -> 270.00 degs) cost= 200 (mprimID   1:   0  -8  12) numofintermcells = 9 numofintercells=8
+action tind=12 aind= 2: dX=  0 dY=  1 endtheta= 12 (270.00 degs -> 270.00 degs) cost= 125 (mprimID   2:   0   1  12) numofintermcells = 2 numofintercells=1
+action tind=12 aind= 3: dX=  1 dY= -8 endtheta= 13 (270.00 degs -> 292.50 degs) cost=3003 (mprimID   3:   1  -8  13) numofintermcells = 9 numofintercells=10
+action tind=12 aind= 4: dX= -1 dY= -8 endtheta= 11 (270.00 degs -> 247.50 degs) cost=3003 (mprimID   4:  -1  -8  11) numofintermcells = 9 numofintercells=10
+action tind=12 aind= 5: dX=  0 dY=  0 endtheta= 13 (270.00 degs -> 292.50 degs) cost=1001 (mprimID   5:   0   0  13) numofintermcells = 1 numofintercells=0
+action tind=12 aind= 6: dX=  0 dY=  0 endtheta= 11 (270.00 degs -> 247.50 degs) cost=1001 (mprimID   6:   0   0  11) numofintermcells = 1 numofintercells=0
+action tind=13 aind= 0: dX=  1 dY= -2 endtheta= 13 (292.50 degs -> 292.50 degs) cost=  56 (mprimID   0:   1  -2  13) numofintermcells = 4 numofintercells=4
+action tind=13 aind= 1: dX=  3 dY= -6 endtheta= 13 (292.50 degs -> 292.50 degs) cost= 168 (mprimID   1:   3  -6  13) numofintermcells = 10 numofintercells=12
+action tind=13 aind= 2: dX= -1 dY=  2 endtheta= 13 (292.50 degs -> 292.50 degs) cost= 280 (mprimID   2:  -1   2  13) numofintermcells = 4 numofintercells=4
+action tind=13 aind= 3: dX=  4 dY= -5 endtheta= 14 (292.50 degs -> 308.13 degs) cost=3000 (mprimID   3:   4  -5  14) numofintermcells = 8 numofintercells=12
+action tind=13 aind= 4: dX=  2 dY= -7 endtheta= 12 (292.50 degs -> 270.00 degs) cost=3003 (mprimID   4:   2  -7  12) numofintermcells = 8 numofintercells=12
+action tind=13 aind= 5: dX=  0 dY=  0 endtheta= 14 (292.50 degs -> 315.00 degs) cost=1000 (mprimID   5:   0   0  14) numofintermcells = 1 numofintercells=0
+action tind=13 aind= 6: dX=  0 dY=  0 endtheta= 12 (292.50 degs -> 270.00 degs) cost=1001 (mprimID   6:   0   0  12) numofintermcells = 1 numofintercells=0
+action tind=14 aind= 0: dX=  1 dY= -1 endtheta= 14 (315.00 degs -> 315.00 degs) cost=  36 (mprimID   0:   1  -1  14) numofintermcells = 2 numofintercells=3
+action tind=14 aind= 1: dX=  6 dY= -6 endtheta= 14 (315.00 degs -> 315.00 degs) cost= 213 (mprimID   1:   6  -6  14) numofintermcells = 7 numofintercells=18
+action tind=14 aind= 2: dX= -1 dY=  1 endtheta= 14 (315.00 degs -> 315.00 degs) cost= 180 (mprimID   2:  -1   1  14) numofintermcells = 2 numofintercells=3
+action tind=14 aind= 3: dX=  7 dY= -5 endtheta= 15 (315.00 degs -> 337.50 degs) cost=3000 (mprimID   3:   7  -5  15) numofintermcells = 9 numofintercells=14
+action tind=14 aind= 4: dX=  5 dY= -7 endtheta= 13 (315.00 degs -> 292.50 degs) cost=3000 (mprimID   4:   5  -7  13) numofintermcells = 9 numofintercells=15
+action tind=14 aind= 5: dX=  0 dY=  0 endtheta= 15 (315.00 degs -> 337.50 degs) cost=1000 (mprimID   5:   0   0  15) numofintermcells = 1 numofintercells=0
+action tind=14 aind= 6: dX=  0 dY=  0 endtheta= 13 (315.00 degs -> 292.50 degs) cost=1000 (mprimID   6:   0   0  13) numofintermcells = 1 numofintercells=0
+action tind=15 aind= 0: dX=  2 dY= -1 endtheta= 15 (337.50 degs -> 337.50 degs) cost=  56 (mprimID   0:   2  -1  15) numofintermcells = 4 numofintercells=4
+action tind=15 aind= 1: dX=  6 dY= -3 endtheta= 15 (337.50 degs -> 337.50 degs) cost= 168 (mprimID   1:   6  -3  15) numofintermcells = 10 numofintercells=12
+action tind=15 aind= 2: dX= -2 dY=  1 endtheta= 15 (337.50 degs -> 337.50 degs) cost= 280 (mprimID   2:  -2   1  15) numofintermcells = 4 numofintercells=4
+action tind=15 aind= 3: dX=  5 dY= -4 endtheta= 14 (337.50 degs -> 321.88 degs) cost=3000 (mprimID   3:   5  -4  14) numofintermcells = 9 numofintercells=12
+action tind=15 aind= 4: dX=  7 dY= -2 endtheta=  0 (337.50 degs ->   0.00 degs) cost=3003 (mprimID   4:   7  -2   0) numofintermcells = 8 numofintercells=11
+action tind=15 aind= 5: dX=  0 dY=  0 endtheta= 14 (337.50 degs -> 315.00 degs) cost=1000 (mprimID   5:   0   0  14) numofintermcells = 1 numofintercells=0
+action tind=15 aind= 6: dX=  0 dY=  0 endtheta=  0 (337.50 degs ->   0.00 degs) cost=1001 (mprimID   6:   0   0   0) numofintermcells = 1 numofintercells=0
+converting stateid path into coordinates:
+looking for 4 4 0 -> 3 4 0 (numofsuccs=4)
+succ: 5 4 0
+succ: 3 4 0
+succ: 4 4 1
+succ: 4 4 15
+0.113 0.113 0.000 (4 4 0 cost=0) first (heur=0)
+0.110 0.113 0.000 (4 4 0 cost=0) 
+0.107 0.113 0.000 (4 4 0 cost=0) 
+0.104 0.113 0.000 (4 4 0 cost=0) 
+0.101 0.113 0.000 (4 4 0 cost=0) 
+0.099 0.113 0.000 (3 4 0 cost=0) 
+0.096 0.113 0.000 (3 4 0 cost=0) 
+0.093 0.113 0.000 (3 4 0 cost=0) 
+0.090 0.113 0.000 (3 4 0 cost=0) 
+looking for 3 4 0 -> 2 4 0 (numofsuccs=4)
+succ: 4 4 0
+succ: 2 4 0
+succ: 3 4 1
+succ: 3 4 15
+0.088 0.113 0.000 (3 4 0 cost=0) first (heur=25)
+0.085 0.113 0.000 (3 4 0 cost=0) 
+0.082 0.113 0.000 (3 4 0 cost=0) 
+0.079 0.113 0.000 (3 4 0 cost=0) 
+0.076 0.113 0.000 (3 4 0 cost=0) 
+0.074 0.113 0.000 (2 4 0 cost=0) 
+0.071 0.113 0.000 (2 4 0 cost=0) 
+0.068 0.113 0.000 (2 4 0 cost=0) 
+0.065 0.113 0.000 (2 4 0 cost=0) 
+looking for 2 4 0 -> 1 4 0 (numofsuccs=4)
+succ: 3 4 0
+succ: 1 4 0
+succ: 2 4 1
+succ: 2 4 15
+0.062 0.113 0.000 (2 4 0 cost=0) first (heur=50)
+0.060 0.113 0.000 (2 4 0 cost=0) 
+0.057 0.113 0.000 (2 4 0 cost=0) 
+0.054 0.113 0.000 (2 4 0 cost=0) 
+0.051 0.113 0.000 (2 4 0 cost=0) 
+0.049 0.113 0.000 (1 4 0 cost=0) 
+0.046 0.113 0.000 (1 4 0 cost=0) 
+0.043 0.113 0.000 (1 4 0 cost=0) 
+0.040 0.113 0.000 (1 4 0 cost=0) 
+looking for 1 4 0 -> 0 4 0 (numofsuccs=4)
+succ: 2 4 0
+succ: 0 4 0
+succ: 1 4 1
+succ: 1 4 15
+0.038 0.113 0.000 (1 4 0 cost=0) first (heur=75)
+0.035 0.113 0.000 (1 4 0 cost=0) 
+0.032 0.113 0.000 (1 4 0 cost=0) 
+0.029 0.113 0.000 (1 4 0 cost=0) 
+0.026 0.113 0.000 (1 4 0 cost=0) 
+0.024 0.113 0.000 (0 4 0 cost=0) 
+0.021 0.113 0.000 (0 4 0 cost=0) 
+0.018 0.113 0.000 (0 4 0 cost=0) 
+0.015 0.113 0.000 (0 4 0 cost=0) 
+looking for 0 4 0 -> 0 4 15 (numofsuccs=3)
+succ: 1 4 0
+succ: 0 4 1
+succ: 0 4 15
+0.013 0.113 0.000 (0 4 0 cost=0) first (heur=100)
+0.013 0.113 6.240 (0 4 0 cost=0) 
+0.013 0.113 6.196 (0 4 0 cost=0) 
+0.013 0.113 6.152 (0 4 0 cost=0) 
+0.013 0.113 6.109 (0 4 0 cost=0) 
+0.013 0.113 6.065 (0 4 15 cost=0) 
+0.013 0.113 6.021 (0 4 15 cost=0) 
+0.013 0.113 5.978 (0 4 15 cost=0) 
+0.013 0.113 5.934 (0 4 15 cost=0) 
+looking for 0 4 15 -> 2 3 15 (numofsuccs=5)
+succ: 2 3 15
+succ: 6 1 15
+succ: 5 0 14
+succ: 0 4 14
+succ: 0 4 0
+0.013 0.113 5.891 (0 4 15 cost=0) first (heur=100)
+0.018 0.110 5.891 (0 4 15 cost=0) 
+0.024 0.107 5.891 (0 4 15 cost=0) 
+0.029 0.104 5.891 (1 4 15 cost=0) 
+0.035 0.101 5.891 (1 4 15 cost=0) 
+0.040 0.099 5.891 (1 3 15 cost=0) 
+0.046 0.096 5.891 (1 3 15 cost=0) 
+0.051 0.093 5.891 (2 3 15 cost=0) 
+0.057 0.090 5.891 (2 3 15 cost=0) 
+looking for 2 3 15 -> 8 0 15 (numofsuccs=6)
+succ: 4 2 15
+succ: 8 0 15
+succ: 0 4 15
+succ: 9 1 0
+succ: 2 3 14
+succ: 2 3 0
+0.062 0.088 5.891 (2 3 15 cost=0) first (heur=55)
+0.079 0.079 5.891 (3 3 15 cost=0) 
+0.096 0.071 5.891 (3 2 15 cost=0) 
+0.113 0.062 5.891 (4 2 15 cost=0) 
+0.129 0.054 5.891 (5 2 15 cost=0) 
+0.146 0.046 5.891 (5 1 15 cost=0) 
+0.163 0.038 5.891 (6 1 15 cost=100) 
+0.179 0.029 5.891 (7 1 15 cost=100) 
+0.196 0.021 5.891 (7 0 15 cost=100) 
+looking for 8 0 15 -> 8 0 14 (numofsuccs=3)
+succ: 6 1 15
+succ: 8 0 14
+succ: 8 0 0
+0.213 0.013 5.891 (8 0 15 cost=0) first (heur=141)
+0.213 0.013 5.847 (8 0 15 cost=0) 
+0.213 0.013 5.803 (8 0 15 cost=0) 
+0.213 0.013 5.760 (8 0 15 cost=0) 
+0.213 0.013 5.716 (8 0 15 cost=0) 
+0.213 0.013 5.672 (8 0 14 cost=0) 
+0.213 0.013 5.629 (8 0 14 cost=0) 
+0.213 0.013 5.585 (8 0 14 cost=0) 
+0.213 0.013 5.541 (8 0 14 cost=0) 
+looking for 8 0 14 -> 8 0 13 (numofsuccs=3)
+succ: 7 1 14
+succ: 8 0 15
+succ: 8 0 13
+0.213 0.013 5.498 (8 0 14 cost=0) first (heur=141)
+0.213 0.013 5.454 (8 0 14 cost=0) 
+0.213 0.013 5.410 (8 0 14 cost=0) 
+0.213 0.013 5.367 (8 0 14 cost=0) 
+0.213 0.013 5.323 (8 0 14 cost=0) 
+0.213 0.013 5.280 (8 0 13 cost=0) 
+0.213 0.013 5.236 (8 0 13 cost=0) 
+0.213 0.013 5.192 (8 0 13 cost=0) 
+0.213 0.013 5.149 (8 0 13 cost=0) 
+looking for 8 0 13 -> 8 0 12 (numofsuccs=2)
+succ: 8 0 14
+succ: 8 0 12
+0.213 0.013 5.105 (8 0 13 cost=0) first (heur=141)
+0.213 0.013 5.061 (8 0 13 cost=0) 
+0.213 0.013 5.018 (8 0 13 cost=0) 
+0.213 0.013 4.974 (8 0 13 cost=0) 
+0.213 0.013 4.931 (8 0 13 cost=0) 
+0.213 0.013 4.887 (8 0 12 cost=0) 
+0.213 0.013 4.843 (8 0 12 cost=0) 
+0.213 0.013 4.800 (8 0 12 cost=0) 
+0.213 0.013 4.756 (8 0 12 cost=0) 
+looking for 8 0 12 -> 8 1 12 (numofsuccs=3)
+succ: 8 1 12
+succ: 8 0 13
+succ: 8 0 11
+0.213 0.013 4.712 (8 0 12 cost=0) first (heur=141)
+0.213 0.015 4.712 (8 0 12 cost=0) 
+0.213 0.018 4.712 (8 0 12 cost=0) 
+0.213 0.021 4.712 (8 0 12 cost=0) 
+0.213 0.024 4.712 (8 0 12 cost=0) 
+0.213 0.026 4.712 (8 1 12 cost=0) 
+0.213 0.029 4.712 (8 1 12 cost=0) 
+0.213 0.032 4.712 (8 1 12 cost=0) 
+0.213 0.035 4.712 (8 1 12 cost=0) 
+looking for 8 1 12 -> 8 2 12 (numofsuccs=4)
+succ: 8 0 12
+succ: 8 2 12
+succ: 8 1 13
+succ: 8 1 11
+0.213 0.038 4.712 (8 1 12 cost=0) first (heur=125)
+0.213 0.040 4.712 (8 1 12 cost=0) 
+0.213 0.043 4.712 (8 1 12 cost=0) 
+0.213 0.046 4.712 (8 1 12 cost=0) 
+0.213 0.049 4.712 (8 1 12 cost=0) 
+0.213 0.051 4.712 (8 2 12 cost=0) 
+0.213 0.054 4.712 (8 2 12 cost=0) 
+0.213 0.057 4.712 (8 2 12 cost=0) 
+0.213 0.060 4.712 (8 2 12 cost=0) 
+looking for 8 2 12 -> 8 3 12 (numofsuccs=4)
+succ: 8 1 12
+succ: 8 3 12
+succ: 8 2 13
+succ: 8 2 11
+0.213 0.062 4.712 (8 2 12 cost=0) first (heur=111)
+0.213 0.065 4.712 (8 2 12 cost=0) 
+0.213 0.068 4.712 (8 2 12 cost=0) 
+0.213 0.071 4.712 (8 2 12 cost=0) 
+0.213 0.074 4.712 (8 2 12 cost=0) 
+0.213 0.076 4.712 (8 3 12 cost=0) 
+0.213 0.079 4.712 (8 3 12 cost=0) 
+0.213 0.082 4.712 (8 3 12 cost=0) 
+0.213 0.085 4.712 (8 3 12 cost=0) 
+looking for 8 3 12 -> 8 4 12 (numofsuccs=4)
+succ: 8 2 12
+succ: 8 4 12
+succ: 8 3 13
+succ: 8 3 11
+0.213 0.088 4.712 (8 3 12 cost=0) first (heur=103)
+0.213 0.090 4.712 (8 3 12 cost=0) 
+0.213 0.093 4.712 (8 3 12 cost=0) 
+0.213 0.096 4.712 (8 3 12 cost=0) 
+0.213 0.099 4.712 (8 3 12 cost=0) 
+0.213 0.101 4.712 (8 4 12 cost=0) 
+0.213 0.104 4.712 (8 4 12 cost=0) 
+0.213 0.107 4.712 (8 4 12 cost=0) 
+0.213 0.110 4.712 (8 4 12 cost=0) 
+looking for 8 4 12 -> 8 5 12 (numofsuccs=4)
+succ: 8 3 12
+succ: 8 5 12
+succ: 8 4 13
+succ: 8 4 11
+0.213 0.113 4.712 (8 4 12 cost=0) first (heur=100)
+0.213 0.115 4.712 (8 4 12 cost=0) 
+0.213 0.118 4.712 (8 4 12 cost=0) 
+0.213 0.121 4.712 (8 4 12 cost=0) 
+0.213 0.124 4.712 (8 4 12 cost=0) 
+0.213 0.126 4.712 (8 5 12 cost=0) 
+0.213 0.129 4.712 (8 5 12 cost=0) 
+0.213 0.132 4.712 (8 5 12 cost=0) 
+0.213 0.135 4.712 (8 5 12 cost=0) 
+looking for 8 5 12 -> 8 6 12 (numofsuccs=4)
+succ: 8 4 12
+succ: 8 6 12
+succ: 8 5 13
+succ: 8 5 11
+0.213 0.138 4.712 (8 5 12 cost=0) first (heur=103)
+0.213 0.140 4.712 (8 5 12 cost=0) 
+0.213 0.143 4.712 (8 5 12 cost=0) 
+0.213 0.146 4.712 (8 5 12 cost=0) 
+0.213 0.149 4.712 (8 5 12 cost=0) 
+0.213 0.151 4.712 (8 6 12 cost=0) 
+0.213 0.154 4.712 (8 6 12 cost=0) 
+0.213 0.157 4.712 (8 6 12 cost=0) 
+0.213 0.160 4.712 (8 6 12 cost=0) 
+looking for 8 6 12 -> 8 7 12 (numofsuccs=4)
+succ: 8 5 12
+succ: 8 7 12
+succ: 8 6 13
+succ: 8 6 11
+0.213 0.163 4.712 (8 6 12 cost=0) first (heur=111)
+0.213 0.165 4.712 (8 6 12 cost=0) 
+0.213 0.168 4.712 (8 6 12 cost=0) 
+0.213 0.171 4.712 (8 6 12 cost=0) 
+0.213 0.174 4.712 (8 6 12 cost=0) 
+0.213 0.176 4.712 (8 7 12 cost=0) 
+0.213 0.179 4.712 (8 7 12 cost=0) 
+0.213 0.182 4.712 (8 7 12 cost=0) 
+0.213 0.185 4.712 (8 7 12 cost=0) 
+looking for 8 7 12 -> 8 8 12 (numofsuccs=4)
+succ: 8 6 12
+succ: 8 8 12
+succ: 8 7 13
+succ: 8 7 11
+0.213 0.188 4.712 (8 7 12 cost=0) first (heur=125)
+0.213 0.190 4.712 (8 7 12 cost=0) 
+0.213 0.193 4.712 (8 7 12 cost=0) 
+0.213 0.196 4.712 (8 7 12 cost=0) 
+0.213 0.199 4.712 (8 7 12 cost=0) 
+0.213 0.201 4.712 (8 8 12 cost=0) 
+0.213 0.204 4.712 (8 8 12 cost=0) 
+0.213 0.207 4.712 (8 8 12 cost=0) 
+0.213 0.210 4.712 (8 8 12 cost=0) 
+looking for 8 8 12 -> 8 9 12 (numofsuccs=7)
+succ: 8 7 12
+succ: 8 0 12
+succ: 8 9 12
+succ: 9 0 13
+succ: 7 0 11
+succ: 8 8 13
+succ: 8 8 11
+0.213 0.213 4.712 (8 8 12 cost=0) first (heur=141)
+0.213 0.215 4.712 (8 8 12 cost=0) 
+0.213 0.218 4.712 (8 8 12 cost=0) 
+0.213 0.221 4.712 (8 8 12 cost=0) 
+0.213 0.224 4.712 (8 8 12 cost=0) 
+0.213 0.226 4.712 (8 9 12 cost=0) 
+0.213 0.229 4.712 (8 9 12 cost=0) 
+0.213 0.232 4.712 (8 9 12 cost=0) 
+0.213 0.235 4.712 (8 9 12 cost=0) 
+looking for 8 9 12 -> 8 10 12 (numofsuccs=6)
+succ: 8 8 12
+succ: 8 1 12
+succ: 8 10 12
+succ: 9 1 13
+succ: 8 9 13
+succ: 8 9 11
+0.213 0.238 4.712 (8 9 12 cost=0) first (heur=160)
+0.213 0.240 4.712 (8 9 12 cost=0) 
+0.213 0.243 4.712 (8 9 12 cost=0) 
+0.213 0.246 4.712 (8 9 12 cost=0) 
+0.213 0.249 4.712 (8 9 12 cost=0) 
+0.213 0.251 4.712 (8 10 12 cost=0) 
+0.213 0.254 4.712 (8 10 12 cost=0) 
+0.213 0.257 4.712 (8 10 12 cost=0) 
+0.213 0.260 4.712 (8 10 12 cost=0) 
+looking for 8 10 12 -> 8 11 12 (numofsuccs=6)
+succ: 8 9 12
+succ: 8 2 12
+succ: 8 11 12
+succ: 9 2 13
+succ: 8 10 13
+succ: 8 10 11
+0.213 0.263 4.712 (8 10 12 cost=0) first (heur=180)
+0.213 0.265 4.712 (8 10 12 cost=0) 
+0.213 0.268 4.712 (8 10 12 cost=0) 
+0.213 0.271 4.712 (8 10 12 cost=0) 
+0.213 0.274 4.712 (8 10 12 cost=0) 
+0.213 0.276 4.712 (8 11 12 cost=0) 
+0.213 0.279 4.712 (8 11 12 cost=0) 
+0.213 0.282 4.712 (8 11 12 cost=0) 
+0.213 0.285 4.712 (8 11 12 cost=0) 
+looking for 8 11 12 -> 8 12 12 (numofsuccs=6)
+succ: 8 10 12
+succ: 8 3 12
+succ: 8 12 12
+succ: 9 3 13
+succ: 8 11 13
+succ: 8 11 11
+0.213 0.288 4.712 (8 11 12 cost=0) first (heur=201)
+0.213 0.290 4.712 (8 11 12 cost=0) 
+0.213 0.293 4.712 (8 11 12 cost=0) 
+0.213 0.296 4.712 (8 11 12 cost=0) 
+0.213 0.299 4.712 (8 11 12 cost=0) 
+0.213 0.301 4.712 (8 12 12 cost=0) 
+0.213 0.304 4.712 (8 12 12 cost=0) 
+0.213 0.307 4.712 (8 12 12 cost=0) 
+0.213 0.310 4.712 (8 12 12 cost=0) 
+looking for 8 12 12 -> 8 13 12 (numofsuccs=7)
+succ: 8 11 12
+succ: 8 4 12
+succ: 8 13 12
+succ: 9 4 13
+succ: 7 4 11
+succ: 8 12 13
+succ: 8 12 11
+0.213 0.313 4.712 (8 12 12 cost=0) first (heur=223)
+0.213 0.315 4.712 (8 12 12 cost=0) 
+0.213 0.318 4.712 (8 12 12 cost=0) 
+0.213 0.321 4.712 (8 12 12 cost=0) 
+0.213 0.324 4.712 (8 12 12 cost=0) 
+0.213 0.326 4.712 (8 13 12 cost=0) 
+0.213 0.329 4.712 (8 13 12 cost=0) 
+0.213 0.332 4.712 (8 13 12 cost=0) 
+0.213 0.335 4.712 (8 13 12 cost=0) 
+looking for 8 13 12 -> 8 14 12 (numofsuccs=7)
+succ: 8 12 12
+succ: 8 5 12
+succ: 8 14 12
+succ: 9 5 13
+succ: 7 5 11
+succ: 8 13 13
+succ: 8 13 11
+0.213 0.338 4.712 (8 13 12 cost=0) first (heur=246)
+0.213 0.340 4.712 (8 13 12 cost=0) 
+0.213 0.343 4.712 (8 13 12 cost=0) 
+0.213 0.346 4.712 (8 13 12 cost=0) 
+0.213 0.349 4.712 (8 13 12 cost=0) 
+0.213 0.351 4.712 (8 14 12 cost=0) 
+0.213 0.354 4.712 (8 14 12 cost=0) 
+0.213 0.357 4.712 (8 14 12 cost=0) 
+0.213 0.360 4.712 (8 14 12 cost=0) 
+looking for 8 14 12 -> 8 14 13 (numofsuccs=6)
+succ: 8 13 12
+succ: 8 6 12
+succ: 9 6 13
+succ: 7 6 11
+succ: 8 14 13
+succ: 8 14 11
+0.213 0.363 4.712 (8 14 12 cost=0) first (heur=269)
+0.213 0.363 4.756 (8 14 12 cost=0) 
+0.213 0.363 4.800 (8 14 12 cost=0) 
+0.213 0.363 4.843 (8 14 12 cost=0) 
+0.213 0.363 4.887 (8 14 12 cost=0) 
+0.213 0.363 4.931 (8 14 13 cost=0) 
+0.213 0.363 4.974 (8 14 13 cost=0) 
+0.213 0.363 5.018 (8 14 13 cost=0) 
+0.213 0.363 5.061 (8 14 13 cost=0) 
+looking for 8 14 13 -> 8 14 14 (numofsuccs=4)
+succ: 9 12 13
+succ: 10 7 12
+succ: 8 14 14
+succ: 8 14 12
+0.213 0.363 5.105 (8 14 13 cost=0) first (heur=269)
+0.213 0.363 5.149 (8 14 13 cost=0) 
+0.213 0.363 5.192 (8 14 13 cost=0) 
+0.213 0.363 5.236 (8 14 13 cost=0) 
+0.213 0.363 5.280 (8 14 13 cost=0) 
+0.213 0.363 5.323 (8 14 14 cost=0) 
+0.213 0.363 5.367 (8 14 14 cost=0) 
+0.213 0.363 5.410 (8 14 14 cost=0) 
+0.213 0.363 5.454 (8 14 14 cost=0) 
+looking for 8 14 14 -> 9 13 14 (numofsuccs=3)
+succ: 9 13 14
+succ: 8 14 15
+succ: 8 14 13
+0.213 0.363 5.498 (8 14 14 cost=0) first (heur=269)
+0.215 0.360 5.498 (8 14 14 cost=0) 
+0.218 0.357 5.498 (8 14 14 cost=0) 
+0.221 0.354 5.498 (8 14 14 cost=0) 
+0.224 0.351 5.498 (8 14 14 cost=0) 
+0.226 0.349 5.498 (9 13 14 cost=0) 
+0.229 0.346 5.498 (9 13 14 cost=0) 
+0.232 0.343 5.498 (9 13 14 cost=0) 
+0.235 0.340 5.498 (9 13 14 cost=0) 
+looking for 9 13 14 -> 9 13 15 (numofsuccs=4)
+succ: 10 12 14
+succ: 8 14 14
+succ: 9 13 15
+succ: 9 13 13
+0.238 0.338 5.498 (9 13 14 cost=0) first (heur=257)
+0.238 0.338 5.541 (9 13 14 cost=0) 
+0.238 0.338 5.585 (9 13 14 cost=0) 
+0.238 0.338 5.629 (9 13 14 cost=0) 
+0.238 0.338 5.672 (9 13 14 cost=0) 
+0.238 0.338 5.716 (9 13 15 cost=0) 
+0.238 0.338 5.760 (9 13 15 cost=0) 
+0.238 0.338 5.803 (9 13 15 cost=0) 
+0.238 0.338 5.847 (9 13 15 cost=0) 
+looking for 9 13 15 -> 11 12 15 (numofsuccs=4)
+succ: 11 12 15
+succ: 7 14 15
+succ: 9 13 14
+succ: 9 13 0
+0.238 0.338 5.891 (9 13 15 cost=0) first (heur=257)
+0.243 0.335 5.891 (9 13 15 cost=0) 
+0.249 0.332 5.891 (9 13 15 cost=0) 
+0.254 0.329 5.891 (10 13 15 cost=0) 
+0.260 0.326 5.891 (10 13 15 cost=0) 
+0.265 0.324 5.891 (10 12 15 cost=0) 
+0.271 0.321 5.891 (10 12 15 cost=0) 
+0.276 0.318 5.891 (11 12 15 cost=0) 
+0.282 0.315 5.891 (11 12 15 cost=0) 
+looking for 11 12 15 -> 13 11 15 (numofsuccs=4)
+succ: 13 11 15
+succ: 9 13 15
+succ: 11 12 14
+succ: 11 12 0
+0.288 0.313 5.891 (11 12 15 cost=0) first (heur=265)
+0.293 0.310 5.891 (11 12 15 cost=0) 
+0.299 0.307 5.891 (11 12 15 cost=0) 
+0.304 0.304 5.891 (12 12 15 cost=0) 
+0.310 0.301 5.891 (12 12 15 cost=0) 
+0.315 0.299 5.891 (12 11 15 cost=0) 
+0.321 0.296 5.891 (12 11 15 cost=0) 
+0.326 0.293 5.891 (13 11 15 cost=0) 
+0.332 0.290 5.891 (13 11 15 cost=0) 
+looking for 13 11 15 -> 13 11 0 (numofsuccs=3)
+succ: 11 12 15
+succ: 13 11 14
+succ: 13 11 0
+0.338 0.288 5.891 (13 11 15 cost=0) first (heur=285)
+0.338 0.288 5.934 (13 11 15 cost=0) 
+0.338 0.288 5.978 (13 11 15 cost=0) 
+0.338 0.288 6.021 (13 11 15 cost=0) 
+0.338 0.288 6.065 (13 11 15 cost=0) 
+0.338 0.288 6.109 (13 11 0 cost=0) 
+0.338 0.288 6.152 (13 11 0 cost=0) 
+0.338 0.288 6.196 (13 11 0 cost=0) 
+0.338 0.288 6.240 (13 11 0 cost=0) 

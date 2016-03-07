@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shivam/sbpl/codes/mhaxythetalat/mhaxythetalat.cpp
+iostream
+-
+string
+-
+sbpl/headers.h
+-
+algorithm
+-
+cassert
+-
+cmath
+-
+limits
+-
+sbpl/discrete_space_information/environment.h
+-
+sbpl/utils/heap.h
+-
+sbpl/utils/key.h
+-
+sbpl/utils/list.h
+-
+sbpl/headers.h
+-
+sbpl/heuristics/embedded_heuristic.h
+-
+sbpl/planners/mhaplanner.h
+-
+

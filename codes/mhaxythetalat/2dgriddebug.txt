@@ -1,0 +1,815 @@
+currentminelement_priority before pop=0
+expanding state <13 11> with g=0 (currentminelement_priority=0, currentfirstbucket_bindex=0, currentfirstbucket_priority=0)
+inserting state <14 12> with g=35
+inserting state <14 11> with g=25
+inserting state <14 10> with g=35
+inserting state <13 12> with g=25
+inserting state <13 10> with g=25
+inserting state <12 12> with g=35
+inserting state <12 11> with g=25
+inserting state <14 13> with g=55
+inserting state <12 13> with g=55
+inserting state <11 12> with g=55
+inserting state <14 9> with g=55
+currentminelement_priority before pop=0
+expanding state <14 11> with g=25 (currentminelement_priority=25, currentfirstbucket_bindex=25, currentfirstbucket_priority=25)
+inserting state <13 13> with g=80
+inserting state <13 9> with g=80
+currentminelement_priority before pop=25
+expanding state <13 12> with g=25 (currentminelement_priority=25, currentfirstbucket_bindex=25, currentfirstbucket_priority=25)
+inserting state <13 13> with g=50
+inserting state <14 14> with g=80
+inserting state <12 14> with g=80
+inserting state <11 13> with g=80
+inserting state <11 11> with g=80
+currentminelement_priority before pop=25
+expanding state <13 10> with g=25 (currentminelement_priority=25, currentfirstbucket_bindex=25, currentfirstbucket_priority=25)
+inserting state <13 9> with g=50
+inserting state <14 8> with g=80
+currentminelement_priority before pop=25
+expanding state <12 11> with g=25 (currentminelement_priority=35, currentfirstbucket_bindex=25, currentfirstbucket_priority=25)
+inserting state <11 11> with g=50
+inserting state <10 12> with g=80
+currentminelement_priority before pop=35
+expanding state <14 12> with g=35 (currentminelement_priority=35, currentfirstbucket_bindex=35, currentfirstbucket_priority=35)
+inserting state <13 14> with g=90
+currentminelement_priority before pop=35
+expanding state <14 10> with g=35 (currentminelement_priority=35, currentfirstbucket_bindex=35, currentfirstbucket_priority=35)
+inserting state <13 8> with g=90
+currentminelement_priority before pop=35
+expanding state <12 12> with g=35 (currentminelement_priority=50, currentfirstbucket_bindex=35, currentfirstbucket_priority=35)
+inserting state <11 13> with g=70
+inserting state <11 14> with g=90
+inserting state <10 13> with g=90
+inserting state <10 11> with g=90
+currentminelement_priority before pop=50
+expanding state <13 13> with g=50 (currentminelement_priority=50, currentfirstbucket_bindex=50, currentfirstbucket_priority=50)
+inserting state <13 14> with g=75
+currentminelement_priority before pop=50
+expanding state <13 9> with g=50 (currentminelement_priority=50, currentfirstbucket_bindex=50, currentfirstbucket_priority=50)
+inserting state <13 8> with g=75
+inserting state <14 7> with g=105
+currentminelement_priority before pop=50
+expanding state <11 11> with g=50 (currentminelement_priority=55, currentfirstbucket_bindex=50, currentfirstbucket_priority=50)
+inserting state <10 11> with g=75
+inserting state <10 10> with g=85
+inserting state <9 12> with g=105
+inserting state <9 10> with g=105
+currentminelement_priority before pop=55
+expanding state <14 13> with g=55 (currentminelement_priority=55, currentfirstbucket_bindex=55, currentfirstbucket_priority=55)
+currentminelement_priority before pop=55
+expanding state <12 13> with g=55 (currentminelement_priority=55, currentfirstbucket_bindex=55, currentfirstbucket_priority=55)
+inserting state <10 14> with g=110
+currentminelement_priority before pop=55
+expanding state <11 12> with g=55 (currentminelement_priority=55, currentfirstbucket_bindex=55, currentfirstbucket_priority=55)
+inserting state <9 13> with g=110
+inserting state <9 11> with g=110
+currentminelement_priority before pop=55
+expanding state <14 9> with g=55 (currentminelement_priority=70, currentfirstbucket_bindex=55, currentfirstbucket_priority=55)
+inserting state <13 7> with g=110
+currentminelement_priority before pop=70
+expanding state <11 13> with g=70 (currentminelement_priority=75, currentfirstbucket_bindex=70, currentfirstbucket_priority=70)
+inserting state <10 14> with g=105
+inserting state <9 14> with g=125
+currentminelement_priority before pop=75
+expanding state <13 14> with g=75 (currentminelement_priority=75, currentfirstbucket_bindex=75, currentfirstbucket_priority=75)
+currentminelement_priority before pop=75
+expanding state <13 8> with g=75 (currentminelement_priority=75, currentfirstbucket_bindex=75, currentfirstbucket_priority=75)
+inserting state <13 7> with g=100
+inserting state <14 6> with g=130
+currentminelement_priority before pop=75
+expanding state <10 11> with g=75 (currentminelement_priority=80, currentfirstbucket_bindex=75, currentfirstbucket_priority=75)
+inserting state <9 11> with g=100
+inserting state <8 12> with g=130
+inserting state <8 10> with g=130
+inserting state <9 9> with g=130
+currentminelement_priority before pop=80
+currentminelement_priority before pop=80
+currentminelement_priority before pop=80
+expanding state <14 14> with g=80 (currentminelement_priority=80, currentfirstbucket_bindex=80, currentfirstbucket_priority=80)
+currentminelement_priority before pop=80
+expanding state <12 14> with g=80 (currentminelement_priority=80, currentfirstbucket_bindex=80, currentfirstbucket_priority=80)
+currentminelement_priority before pop=80
+currentminelement_priority before pop=80
+currentminelement_priority before pop=80
+expanding state <14 8> with g=80 (currentminelement_priority=80, currentfirstbucket_bindex=80, currentfirstbucket_priority=80)
+inserting state <13 6> with g=135
+currentminelement_priority before pop=80
+expanding state <10 12> with g=80 (currentminelement_priority=85, currentfirstbucket_bindex=80, currentfirstbucket_priority=80)
+inserting state <8 13> with g=135
+inserting state <8 11> with g=135
+currentminelement_priority before pop=85
+expanding state <10 10> with g=85 (currentminelement_priority=90, currentfirstbucket_bindex=85, currentfirstbucket_priority=85)
+inserting state <10 9> with g=110
+inserting state <9 9> with g=120
+inserting state <8 9> with g=140
+inserting state <9 8> with g=140
+currentminelement_priority before pop=90
+currentminelement_priority before pop=90
+currentminelement_priority before pop=90
+expanding state <11 14> with g=90 (currentminelement_priority=90, currentfirstbucket_bindex=90, currentfirstbucket_priority=90)
+currentminelement_priority before pop=90
+expanding state <10 13> with g=90 (currentminelement_priority=90, currentfirstbucket_bindex=90, currentfirstbucket_priority=90)
+inserting state <8 14> with g=145
+currentminelement_priority before pop=90
+currentminelement_priority before pop=100
+expanding state <13 7> with g=100 (currentminelement_priority=100, currentfirstbucket_bindex=100, currentfirstbucket_priority=100)
+inserting state <13 6> with g=125
+inserting state <14 5> with g=155
+currentminelement_priority before pop=100
+expanding state <9 11> with g=100 (currentminelement_priority=105, currentfirstbucket_bindex=100, currentfirstbucket_priority=100)
+inserting state <8 11> with g=125
+inserting state <7 12> with g=5655
+inserting state <7 10> with g=11155
+currentminelement_priority before pop=105
+expanding state <14 7> with g=105 (currentminelement_priority=105, currentfirstbucket_bindex=105, currentfirstbucket_priority=105)
+inserting state <13 5> with g=160
+currentminelement_priority before pop=105
+expanding state <9 12> with g=105 (currentminelement_priority=105, currentfirstbucket_bindex=105, currentfirstbucket_priority=105)
+inserting state <7 13> with g=5660
+inserting state <7 11> with g=5660
+currentminelement_priority before pop=105
+expanding state <9 10> with g=105 (currentminelement_priority=105, currentfirstbucket_bindex=105, currentfirstbucket_priority=105)
+inserting state <7 9> with g=11160
+inserting state <8 8> with g=160
+inserting state <10 8> with g=160
+currentminelement_priority before pop=105
+expanding state <10 14> with g=105 (currentminelement_priority=110, currentfirstbucket_bindex=105, currentfirstbucket_priority=105)
+currentminelement_priority before pop=110
+currentminelement_priority before pop=110
+expanding state <9 13> with g=110 (currentminelement_priority=110, currentfirstbucket_bindex=110, currentfirstbucket_priority=110)
+inserting state <7 14> with g=5665
+currentminelement_priority before pop=110
+currentminelement_priority before pop=110
+currentminelement_priority before pop=110
+expanding state <10 9> with g=110 (currentminelement_priority=120, currentfirstbucket_bindex=110, currentfirstbucket_priority=110)
+inserting state <10 8> with g=135
+inserting state <9 7> with g=165
+currentminelement_priority before pop=120
+expanding state <9 9> with g=120 (currentminelement_priority=125, currentfirstbucket_bindex=120, currentfirstbucket_priority=120)
+inserting state <8 8> with g=155
+inserting state <7 8> with g=11175
+inserting state <8 7> with g=175
+inserting state <10 7> with g=175
+currentminelement_priority before pop=125
+expanding state <9 14> with g=125 (currentminelement_priority=125, currentfirstbucket_bindex=125, currentfirstbucket_priority=125)
+currentminelement_priority before pop=125
+expanding state <13 6> with g=125 (currentminelement_priority=125, currentfirstbucket_bindex=125, currentfirstbucket_priority=125)
+inserting state <13 5> with g=150
+inserting state <12 5> with g=160
+inserting state <12 4> with g=180
+inserting state <14 4> with g=180
+currentminelement_priority before pop=125
+expanding state <8 11> with g=125 (currentminelement_priority=130, currentfirstbucket_bindex=125, currentfirstbucket_priority=125)
+inserting state <7 12> with g=3660
+inserting state <7 11> with g=2650
+inserting state <7 10> with g=7160
+inserting state <6 12> with g=11180
+currentminelement_priority before pop=130
+expanding state <14 6> with g=130 (currentminelement_priority=130, currentfirstbucket_bindex=130, currentfirstbucket_priority=130)
+inserting state <13 4> with g=185
+currentminelement_priority before pop=130
+expanding state <8 12> with g=130 (currentminelement_priority=130, currentfirstbucket_bindex=130, currentfirstbucket_priority=130)
+inserting state <7 13> with g=3665
+inserting state <7 12> with g=2655
+currentminelement_priority before pop=130
+expanding state <8 10> with g=130 (currentminelement_priority=130, currentfirstbucket_bindex=130, currentfirstbucket_priority=130)
+inserting state <7 10> with g=5155
+inserting state <7 9> with g=7165
+currentminelement_priority before pop=130
+currentminelement_priority before pop=135
+currentminelement_priority before pop=135
+expanding state <8 13> with g=135 (currentminelement_priority=135, currentfirstbucket_bindex=135, currentfirstbucket_priority=135)
+inserting state <7 14> with g=3670
+inserting state <7 13> with g=2660
+currentminelement_priority before pop=135
+currentminelement_priority before pop=135
+expanding state <10 8> with g=135 (currentminelement_priority=140, currentfirstbucket_bindex=135, currentfirstbucket_priority=135)
+inserting state <10 7> with g=160
+inserting state <9 6> with g=190
+currentminelement_priority before pop=140
+expanding state <8 9> with g=140 (currentminelement_priority=140, currentfirstbucket_bindex=140, currentfirstbucket_priority=140)
+inserting state <7 9> with g=5165
+inserting state <7 8> with g=7175
+inserting state <6 8> with g=11195
+inserting state <7 7> with g=11195
+currentminelement_priority before pop=140
+expanding state <9 8> with g=140 (currentminelement_priority=145, currentfirstbucket_bindex=140, currentfirstbucket_priority=140)
+inserting state <8 6> with g=195
+inserting state <10 6> with g=195
+currentminelement_priority before pop=145
+expanding state <8 14> with g=145 (currentminelement_priority=150, currentfirstbucket_bindex=145, currentfirstbucket_priority=145)
+inserting state <7 14> with g=2670
+currentminelement_priority before pop=150
+expanding state <13 5> with g=150 (currentminelement_priority=155, currentfirstbucket_bindex=150, currentfirstbucket_priority=150)
+inserting state <13 4> with g=175
+inserting state <11 4> with g=205
+inserting state <12 3> with g=205
+inserting state <14 3> with g=205
+currentminelement_priority before pop=155
+expanding state <14 5> with g=155 (currentminelement_priority=155, currentfirstbucket_bindex=155, currentfirstbucket_priority=155)
+inserting state <13 3> with g=210
+currentminelement_priority before pop=155
+expanding state <8 8> with g=155 (currentminelement_priority=160, currentfirstbucket_bindex=155, currentfirstbucket_priority=155)
+inserting state <7 8> with g=5180
+inserting state <7 7> with g=7190
+inserting state <7 6> with g=11210
+currentminelement_priority before pop=160
+currentminelement_priority before pop=160
+currentminelement_priority before pop=160
+currentminelement_priority before pop=160
+expanding state <12 5> with g=160 (currentminelement_priority=160, currentfirstbucket_bindex=160, currentfirstbucket_priority=160)
+inserting state <11 5> with g=185
+inserting state <11 4> with g=195
+inserting state <10 4> with g=215
+inserting state <11 3> with g=215
+currentminelement_priority before pop=160
+expanding state <10 7> with g=160 (currentminelement_priority=165, currentfirstbucket_bindex=160, currentfirstbucket_priority=160)
+inserting state <10 6> with g=185
+inserting state <9 5> with g=215
+currentminelement_priority before pop=165
+expanding state <9 7> with g=165 (currentminelement_priority=175, currentfirstbucket_bindex=165, currentfirstbucket_priority=165)
+inserting state <8 5> with g=220
+inserting state <10 5> with g=220
+currentminelement_priority before pop=175
+expanding state <8 7> with g=175 (currentminelement_priority=175, currentfirstbucket_bindex=175, currentfirstbucket_priority=175)
+inserting state <7 7> with g=5200
+inserting state <7 6> with g=7210
+inserting state <7 5> with g=11230
+currentminelement_priority before pop=175
+currentminelement_priority before pop=175
+expanding state <13 4> with g=175 (currentminelement_priority=180, currentfirstbucket_bindex=175, currentfirstbucket_priority=175)
+inserting state <13 3> with g=200
+inserting state <12 2> with g=230
+inserting state <14 2> with g=230
+currentminelement_priority before pop=180
+expanding state <12 4> with g=180 (currentminelement_priority=180, currentfirstbucket_bindex=180, currentfirstbucket_priority=180)
+inserting state <10 3> with g=235
+inserting state <11 2> with g=235
+inserting state <13 2> with g=235
+currentminelement_priority before pop=180
+expanding state <14 4> with g=180 (currentminelement_priority=185, currentfirstbucket_bindex=180, currentfirstbucket_priority=180)
+currentminelement_priority before pop=185
+currentminelement_priority before pop=185
+expanding state <11 5> with g=185 (currentminelement_priority=185, currentfirstbucket_bindex=185, currentfirstbucket_priority=185)
+inserting state <10 5> with g=210
+inserting state <9 4> with g=240
+currentminelement_priority before pop=185
+expanding state <10 6> with g=185 (currentminelement_priority=190, currentfirstbucket_bindex=185, currentfirstbucket_priority=185)
+currentminelement_priority before pop=190
+expanding state <9 6> with g=190 (currentminelement_priority=195, currentfirstbucket_bindex=190, currentfirstbucket_priority=190)
+inserting state <7 5> with g=245
+inserting state <8 4> with g=245
+currentminelement_priority before pop=195
+expanding state <8 6> with g=195 (currentminelement_priority=195, currentfirstbucket_bindex=195, currentfirstbucket_priority=195)
+inserting state <7 6> with g=5220
+inserting state <7 5> with g=230
+inserting state <7 4> with g=250
+currentminelement_priority before pop=195
+currentminelement_priority before pop=195
+expanding state <11 4> with g=195 (currentminelement_priority=200, currentfirstbucket_bindex=195, currentfirstbucket_priority=195)
+inserting state <10 3> with g=230
+inserting state <9 3> with g=250
+inserting state <10 2> with g=250
+currentminelement_priority before pop=200
+expanding state <13 3> with g=200 (currentminelement_priority=205, currentfirstbucket_bindex=200, currentfirstbucket_priority=200)
+inserting state <13 2> with g=225
+inserting state <12 1> with g=255
+inserting state <14 1> with g=255
+currentminelement_priority before pop=205
+currentminelement_priority before pop=205
+expanding state <12 3> with g=205 (currentminelement_priority=205, currentfirstbucket_bindex=205, currentfirstbucket_priority=205)
+inserting state <11 1> with g=260
+inserting state <13 1> with g=260
+currentminelement_priority before pop=205
+expanding state <14 3> with g=205 (currentminelement_priority=210, currentfirstbucket_bindex=205, currentfirstbucket_priority=205)
+currentminelement_priority before pop=210
+currentminelement_priority before pop=210
+expanding state <10 5> with g=210 (currentminelement_priority=215, currentfirstbucket_bindex=210, currentfirstbucket_priority=210)
+currentminelement_priority before pop=215
+expanding state <10 4> with g=215 (currentminelement_priority=215, currentfirstbucket_bindex=215, currentfirstbucket_priority=215)
+inserting state <8 3> with g=270
+inserting state <9 2> with g=270
+currentminelement_priority before pop=215
+expanding state <11 3> with g=215 (currentminelement_priority=215, currentfirstbucket_bindex=215, currentfirstbucket_priority=215)
+inserting state <10 1> with g=270
+currentminelement_priority before pop=215
+expanding state <9 5> with g=215 (currentminelement_priority=220, currentfirstbucket_bindex=215, currentfirstbucket_priority=215)
+currentminelement_priority before pop=220
+expanding state <8 5> with g=220 (currentminelement_priority=220, currentfirstbucket_bindex=220, currentfirstbucket_priority=220)
+currentminelement_priority before pop=220
+currentminelement_priority before pop=225
+expanding state <13 2> with g=225 (currentminelement_priority=230, currentfirstbucket_bindex=225, currentfirstbucket_priority=225)
+inserting state <13 1> with g=250
+inserting state <12 0> with g=280
+inserting state <14 0> with g=280
+currentminelement_priority before pop=230
+expanding state <12 2> with g=230 (currentminelement_priority=230, currentfirstbucket_bindex=230, currentfirstbucket_priority=230)
+inserting state <11 0> with g=285
+inserting state <13 0> with g=285
+currentminelement_priority before pop=230
+expanding state <14 2> with g=230 (currentminelement_priority=230, currentfirstbucket_bindex=230, currentfirstbucket_priority=230)
+currentminelement_priority before pop=230
+expanding state <7 5> with g=230 (currentminelement_priority=230, currentfirstbucket_bindex=230, currentfirstbucket_priority=230)
+currentminelement_priority before pop=230
+expanding state <10 3> with g=230 (currentminelement_priority=235, currentfirstbucket_bindex=230, currentfirstbucket_priority=230)
+inserting state <9 2> with g=265
+inserting state <8 2> with g=285
+inserting state <9 1> with g=285
+currentminelement_priority before pop=235
+currentminelement_priority before pop=235
+expanding state <11 2> with g=235 (currentminelement_priority=235, currentfirstbucket_bindex=235, currentfirstbucket_priority=235)
+inserting state <10 0> with g=290
+currentminelement_priority before pop=235
+currentminelement_priority before pop=240
+expanding state <9 4> with g=240 (currentminelement_priority=245, currentfirstbucket_bindex=240, currentfirstbucket_priority=240)
+currentminelement_priority before pop=245
+currentminelement_priority before pop=245
+expanding state <8 4> with g=245 (currentminelement_priority=250, currentfirstbucket_bindex=245, currentfirstbucket_priority=245)
+currentminelement_priority before pop=250
+expanding state <7 4> with g=250 (currentminelement_priority=250, currentfirstbucket_bindex=250, currentfirstbucket_priority=250)
+currentminelement_priority before pop=250
+expanding state <9 3> with g=250 (currentminelement_priority=250, currentfirstbucket_bindex=250, currentfirstbucket_priority=250)
+inserting state <8 1> with g=305
+currentminelement_priority before pop=250
+expanding state <10 2> with g=250 (currentminelement_priority=250, currentfirstbucket_bindex=250, currentfirstbucket_priority=250)
+inserting state <9 0> with g=305
+currentminelement_priority before pop=250
+expanding state <13 1> with g=250 (currentminelement_priority=255, currentfirstbucket_bindex=250, currentfirstbucket_priority=250)
+inserting state <13 0> with g=275
+currentminelement_priority before pop=255
+expanding state <12 1> with g=255 (currentminelement_priority=255, currentfirstbucket_bindex=255, currentfirstbucket_priority=255)
+currentminelement_priority before pop=255
+expanding state <14 1> with g=255 (currentminelement_priority=260, currentfirstbucket_bindex=255, currentfirstbucket_priority=255)
+currentminelement_priority before pop=260
+expanding state <11 1> with g=260 (currentminelement_priority=260, currentfirstbucket_bindex=260, currentfirstbucket_priority=260)
+currentminelement_priority before pop=260
+currentminelement_priority before pop=265
+expanding state <9 2> with g=265 (currentminelement_priority=270, currentfirstbucket_bindex=265, currentfirstbucket_priority=265)
+inserting state <8 1> with g=300
+inserting state <7 1> with g=5820
+inserting state <8 0> with g=320
+currentminelement_priority before pop=270
+expanding state <8 3> with g=270 (currentminelement_priority=270, currentfirstbucket_bindex=270, currentfirstbucket_priority=270)
+currentminelement_priority before pop=270
+currentminelement_priority before pop=270
+expanding state <10 1> with g=270 (currentminelement_priority=275, currentfirstbucket_bindex=270, currentfirstbucket_priority=270)
+currentminelement_priority before pop=275
+expanding state <13 0> with g=275 (currentminelement_priority=280, currentfirstbucket_bindex=275, currentfirstbucket_priority=275)
+currentminelement_priority before pop=280
+expanding state <12 0> with g=280 (currentminelement_priority=280, currentfirstbucket_bindex=280, currentfirstbucket_priority=280)
+currentminelement_priority before pop=280
+expanding state <14 0> with g=280 (currentminelement_priority=285, currentfirstbucket_bindex=280, currentfirstbucket_priority=280)
+currentminelement_priority before pop=285
+expanding state <11 0> with g=285 (currentminelement_priority=285, currentfirstbucket_bindex=285, currentfirstbucket_priority=285)
+currentminelement_priority before pop=285
+currentminelement_priority before pop=285
+expanding state <8 2> with g=285 (currentminelement_priority=285, currentfirstbucket_bindex=285, currentfirstbucket_priority=285)
+inserting state <7 1> with g=3820
+inserting state <7 0> with g=5840
+currentminelement_priority before pop=285
+expanding state <9 1> with g=285 (currentminelement_priority=290, currentfirstbucket_bindex=285, currentfirstbucket_priority=285)
+currentminelement_priority before pop=290
+expanding state <10 0> with g=290 (currentminelement_priority=300, currentfirstbucket_bindex=290, currentfirstbucket_priority=290)
+currentminelement_priority before pop=300
+expanding state <8 1> with g=300 (currentminelement_priority=305, currentfirstbucket_bindex=300, currentfirstbucket_priority=300)
+inserting state <7 1> with g=2825
+inserting state <7 0> with g=3835
+inserting state <6 0> with g=5855
+currentminelement_priority before pop=305
+currentminelement_priority before pop=305
+expanding state <9 0> with g=305 (currentminelement_priority=320, currentfirstbucket_bindex=305, currentfirstbucket_priority=305)
+currentminelement_priority before pop=320
+expanding state <8 0> with g=320 (currentminelement_priority=2650, currentfirstbucket_bindex=320, currentfirstbucket_priority=320)
+inserting state <7 0> with g=2845
+inserting state <6 1> with g=5875
+currentminelement_priority before pop=2650
+expanding state <7 11> with g=2650 (currentminelement_priority=2655, currentfirstbucket_bindex=2650, currentfirstbucket_priority=2650)
+inserting state <6 12> with g=9685
+currentminelement_priority before pop=2655
+expanding state <7 12> with g=2655 (currentminelement_priority=2660, currentfirstbucket_bindex=2655, currentfirstbucket_priority=2655)
+inserting state <6 12> with g=7680
+currentminelement_priority before pop=2660
+expanding state <7 13> with g=2660 (currentminelement_priority=2670, currentfirstbucket_bindex=2660, currentfirstbucket_priority=2660)
+currentminelement_priority before pop=2670
+expanding state <7 14> with g=2670 (currentminelement_priority=2825, currentfirstbucket_bindex=2670, currentfirstbucket_priority=2670)
+currentminelement_priority before pop=2825
+expanding state <7 1> with g=2825 (currentminelement_priority=2845, currentfirstbucket_bindex=2825, currentfirstbucket_priority=2825)
+inserting state <6 1> with g=5350
+inserting state <5 0> with g=8380
+currentminelement_priority before pop=2845
+expanding state <7 0> with g=2845 (currentminelement_priority=3660, currentfirstbucket_bindex=2845, currentfirstbucket_priority=2845)
+inserting state <6 0> with g=5370
+inserting state <5 1> with g=8400
+currentminelement_priority before pop=3660
+currentminelement_priority before pop=3665
+currentminelement_priority before pop=3670
+currentminelement_priority before pop=3820
+currentminelement_priority before pop=3835
+currentminelement_priority before pop=5155
+expanding state <7 10> with g=5155 (currentminelement_priority=5165, currentfirstbucket_bindex=5155, currentfirstbucket_priority=5155)
+currentminelement_priority before pop=5165
+expanding state <7 9> with g=5165 (currentminelement_priority=5180, currentfirstbucket_bindex=5165, currentfirstbucket_priority=5165)
+currentminelement_priority before pop=5180
+expanding state <7 8> with g=5180 (currentminelement_priority=5200, currentfirstbucket_bindex=5180, currentfirstbucket_priority=5180)
+inserting state <6 8> with g=10205
+currentminelement_priority before pop=5200
+expanding state <7 7> with g=5200 (currentminelement_priority=5220, currentfirstbucket_bindex=5200, currentfirstbucket_priority=5200)
+currentminelement_priority before pop=5220
+expanding state <7 6> with g=5220 (currentminelement_priority=5350, currentfirstbucket_bindex=5220, currentfirstbucket_priority=5220)
+currentminelement_priority before pop=5350
+expanding state <6 1> with g=5350 (currentminelement_priority=5370, currentfirstbucket_bindex=5350, currentfirstbucket_priority=5350)
+inserting state <5 2> with g=8885
+inserting state <5 1> with g=7875
+inserting state <4 2> with g=10905
+inserting state <4 0> with g=10905
+currentminelement_priority before pop=5370
+expanding state <6 0> with g=5370 (currentminelement_priority=5655, currentfirstbucket_bindex=5370, currentfirstbucket_priority=5370)
+inserting state <5 0> with g=7895
+inserting state <4 1> with g=10925
+currentminelement_priority before pop=5655
+currentminelement_priority before pop=5660
+currentminelement_priority before pop=5660
+currentminelement_priority before pop=5665
+currentminelement_priority before pop=5820
+currentminelement_priority before pop=5840
+currentminelement_priority before pop=5855
+currentminelement_priority before pop=5875
+currentminelement_priority before pop=7160
+currentminelement_priority before pop=7165
+currentminelement_priority before pop=7175
+currentminelement_priority before pop=7190
+currentminelement_priority before pop=7210
+currentminelement_priority before pop=7680
+expanding state <6 12> with g=7680 (currentminelement_priority=7875, currentfirstbucket_bindex=7680, currentfirstbucket_priority=7680)
+inserting state <5 13> with g=14715
+inserting state <5 12> with g=12705
+inserting state <5 11> with g=14715
+inserting state <4 13> with g=18735
+inserting state <4 11> with g=18735
+currentminelement_priority before pop=7875
+expanding state <5 1> with g=7875 (currentminelement_priority=7895, currentfirstbucket_bindex=7875, currentfirstbucket_priority=7875)
+inserting state <5 2> with g=7900
+inserting state <4 2> with g=7910
+inserting state <4 1> with g=7900
+inserting state <4 0> with g=7910
+inserting state <4 3> with g=7930
+inserting state <3 2> with g=7930
+inserting state <3 0> with g=7930
+currentminelement_priority before pop=7895
+expanding state <5 0> with g=7895 (currentminelement_priority=7900, currentfirstbucket_bindex=7895, currentfirstbucket_priority=7895)
+inserting state <3 1> with g=7950
+currentminelement_priority before pop=7900
+expanding state <5 2> with g=7900 (currentminelement_priority=7900, currentfirstbucket_bindex=7900, currentfirstbucket_priority=7900)
+inserting state <5 3> with g=7925
+inserting state <4 4> with g=7955
+inserting state <3 3> with g=7955
+currentminelement_priority before pop=7900
+expanding state <4 1> with g=7900 (currentminelement_priority=7910, currentfirstbucket_bindex=7900, currentfirstbucket_priority=7900)
+inserting state <3 1> with g=7925
+inserting state <2 2> with g=7955
+inserting state <2 0> with g=7955
+currentminelement_priority before pop=7910
+expanding state <4 2> with g=7910 (currentminelement_priority=7910, currentfirstbucket_bindex=7910, currentfirstbucket_priority=7910)
+inserting state <3 3> with g=7945
+inserting state <5 4> with g=7965
+inserting state <3 4> with g=7965
+inserting state <2 3> with g=7965
+inserting state <2 1> with g=7965
+currentminelement_priority before pop=7910
+expanding state <4 0> with g=7910 (currentminelement_priority=7925, currentfirstbucket_bindex=7910, currentfirstbucket_priority=7910)
+currentminelement_priority before pop=7925
+expanding state <5 3> with g=7925 (currentminelement_priority=7925, currentfirstbucket_bindex=7925, currentfirstbucket_priority=7925)
+inserting state <5 4> with g=7950
+inserting state <4 5> with g=7980
+currentminelement_priority before pop=7925
+expanding state <3 1> with g=7925 (currentminelement_priority=7930, currentfirstbucket_bindex=7925, currentfirstbucket_priority=7925)
+inserting state <2 1> with g=7950
+inserting state <1 2> with g=7980
+inserting state <1 0> with g=7980
+currentminelement_priority before pop=7930
+expanding state <4 3> with g=7930 (currentminelement_priority=7930, currentfirstbucket_bindex=7930, currentfirstbucket_priority=7930)
+inserting state <5 5> with g=7985
+inserting state <3 5> with g=7985
+inserting state <2 4> with g=7985
+currentminelement_priority before pop=7930
+expanding state <3 2> with g=7930 (currentminelement_priority=7930, currentfirstbucket_bindex=7930, currentfirstbucket_priority=7930)
+inserting state <1 3> with g=7985
+inserting state <1 1> with g=7985
+currentminelement_priority before pop=7930
+expanding state <3 0> with g=7930 (currentminelement_priority=7945, currentfirstbucket_bindex=7930, currentfirstbucket_priority=7930)
+currentminelement_priority before pop=7945
+expanding state <3 3> with g=7945 (currentminelement_priority=7950, currentfirstbucket_bindex=7945, currentfirstbucket_priority=7945)
+inserting state <2 4> with g=7980
+inserting state <2 5> with g=8000
+inserting state <1 4> with g=8000
+currentminelement_priority before pop=7950
+currentminelement_priority before pop=7950
+expanding state <5 4> with g=7950 (currentminelement_priority=7950, currentfirstbucket_bindex=7950, currentfirstbucket_priority=7950)
+inserting state <5 5> with g=7975
+inserting state <4 6> with g=8005
+currentminelement_priority before pop=7950
+expanding state <2 1> with g=7950 (currentminelement_priority=7955, currentfirstbucket_bindex=7950, currentfirstbucket_priority=7950)
+inserting state <1 1> with g=7975
+inserting state <0 2> with g=8005
+inserting state <0 0> with g=8005
+currentminelement_priority before pop=7955
+expanding state <4 4> with g=7955 (currentminelement_priority=7955, currentfirstbucket_bindex=7955, currentfirstbucket_priority=7955)
+inserting state <5 6> with g=8010
+inserting state <3 6> with g=8010
+currentminelement_priority before pop=7955
+currentminelement_priority before pop=7955
+expanding state <2 2> with g=7955 (currentminelement_priority=7955, currentfirstbucket_bindex=7955, currentfirstbucket_priority=7955)
+inserting state <0 3> with g=8010
+inserting state <0 1> with g=8010
+currentminelement_priority before pop=7955
+expanding state <2 0> with g=7955 (currentminelement_priority=7965, currentfirstbucket_bindex=7955, currentfirstbucket_priority=7955)
+currentminelement_priority before pop=7965
+currentminelement_priority before pop=7965
+expanding state <3 4> with g=7965 (currentminelement_priority=7965, currentfirstbucket_bindex=7965, currentfirstbucket_priority=7965)
+inserting state <2 6> with g=8020
+inserting state <1 5> with g=8020
+currentminelement_priority before pop=7965
+expanding state <2 3> with g=7965 (currentminelement_priority=7965, currentfirstbucket_bindex=7965, currentfirstbucket_priority=7965)
+inserting state <0 4> with g=8020
+currentminelement_priority before pop=7965
+currentminelement_priority before pop=7975
+expanding state <5 5> with g=7975 (currentminelement_priority=7975, currentfirstbucket_bindex=7975, currentfirstbucket_priority=7975)
+inserting state <5 6> with g=8000
+inserting state <4 7> with g=8030
+currentminelement_priority before pop=7975
+expanding state <1 1> with g=7975 (currentminelement_priority=7980, currentfirstbucket_bindex=7975, currentfirstbucket_priority=7975)
+inserting state <0 1> with g=8000
+currentminelement_priority before pop=7980
+expanding state <4 5> with g=7980 (currentminelement_priority=7980, currentfirstbucket_bindex=7980, currentfirstbucket_priority=7980)
+inserting state <5 7> with g=8035
+inserting state <3 7> with g=8090
+currentminelement_priority before pop=7980
+expanding state <1 2> with g=7980 (currentminelement_priority=7980, currentfirstbucket_bindex=7980, currentfirstbucket_priority=7980)
+currentminelement_priority before pop=7980
+expanding state <1 0> with g=7980 (currentminelement_priority=7980, currentfirstbucket_bindex=7980, currentfirstbucket_priority=7980)
+currentminelement_priority before pop=7980
+expanding state <2 4> with g=7980 (currentminelement_priority=7985, currentfirstbucket_bindex=7980, currentfirstbucket_priority=7980)
+inserting state <1 5> with g=8015
+inserting state <1 6> with g=8035
+inserting state <0 5> with g=8035
+currentminelement_priority before pop=7985
+currentminelement_priority before pop=7985
+expanding state <3 5> with g=7985 (currentminelement_priority=7985, currentfirstbucket_bindex=7985, currentfirstbucket_priority=7985)
+inserting state <2 7> with g=8095
+currentminelement_priority before pop=7985
+currentminelement_priority before pop=7985
+expanding state <1 3> with g=7985 (currentminelement_priority=7985, currentfirstbucket_bindex=7985, currentfirstbucket_priority=7985)
+currentminelement_priority before pop=7985
+currentminelement_priority before pop=8000
+expanding state <2 5> with g=8000 (currentminelement_priority=8000, currentfirstbucket_bindex=8000, currentfirstbucket_priority=8000)
+inserting state <1 7> with g=8110
+inserting state <0 6> with g=8055
+currentminelement_priority before pop=8000
+expanding state <1 4> with g=8000 (currentminelement_priority=8000, currentfirstbucket_bindex=8000, currentfirstbucket_priority=8000)
+currentminelement_priority before pop=8000
+expanding state <5 6> with g=8000 (currentminelement_priority=8000, currentfirstbucket_bindex=8000, currentfirstbucket_priority=8000)
+inserting state <5 7> with g=8025
+inserting state <4 8> with g=8055
+currentminelement_priority before pop=8000
+expanding state <0 1> with g=8000 (currentminelement_priority=8005, currentfirstbucket_bindex=8000, currentfirstbucket_priority=8000)
+currentminelement_priority before pop=8005
+expanding state <4 6> with g=8005 (currentminelement_priority=8005, currentfirstbucket_bindex=8005, currentfirstbucket_priority=8005)
+inserting state <3 7> with g=8075
+inserting state <5 8> with g=8060
+inserting state <3 8> with g=8115
+currentminelement_priority before pop=8005
+expanding state <0 2> with g=8005 (currentminelement_priority=8005, currentfirstbucket_bindex=8005, currentfirstbucket_priority=8005)
+currentminelement_priority before pop=8005
+expanding state <0 0> with g=8005 (currentminelement_priority=8010, currentfirstbucket_bindex=8005, currentfirstbucket_priority=8005)
+currentminelement_priority before pop=8010
+currentminelement_priority before pop=8010
+expanding state <3 6> with g=8010 (currentminelement_priority=8010, currentfirstbucket_bindex=8010, currentfirstbucket_priority=8010)
+inserting state <3 7> with g=8060
+inserting state <2 7> with g=8080
+inserting state <2 8> with g=8120
+currentminelement_priority before pop=8010
+expanding state <0 3> with g=8010 (currentminelement_priority=8010, currentfirstbucket_bindex=8010, currentfirstbucket_priority=8010)
+currentminelement_priority before pop=8010
+currentminelement_priority before pop=8015
+expanding state <1 5> with g=8015 (currentminelement_priority=8020, currentfirstbucket_bindex=8015, currentfirstbucket_priority=8015)
+inserting state <0 6> with g=8050
+inserting state <0 7> with g=8125
+currentminelement_priority before pop=8020
+expanding state <2 6> with g=8020 (currentminelement_priority=8020, currentfirstbucket_bindex=8020, currentfirstbucket_priority=8020)
+inserting state <2 7> with g=8070
+inserting state <1 7> with g=8090
+inserting state <1 8> with g=8130
+currentminelement_priority before pop=8020
+currentminelement_priority before pop=8020
+expanding state <0 4> with g=8020 (currentminelement_priority=8025, currentfirstbucket_bindex=8020, currentfirstbucket_priority=8020)
+currentminelement_priority before pop=8025
+expanding state <5 7> with g=8025 (currentminelement_priority=8030, currentfirstbucket_bindex=8025, currentfirstbucket_priority=8025)
+inserting state <6 8> with g=8060
+inserting state <5 8> with g=8050
+inserting state <4 9> with g=8080
+currentminelement_priority before pop=8030
+expanding state <4 7> with g=8030 (currentminelement_priority=8035, currentfirstbucket_bindex=8030, currentfirstbucket_priority=8030)
+inserting state <3 8> with g=8100
+inserting state <5 9> with g=8085
+inserting state <3 9> with g=8140
+currentminelement_priority before pop=8035
+currentminelement_priority before pop=8035
+expanding state <1 6> with g=8035 (currentminelement_priority=8035, currentfirstbucket_bindex=8035, currentfirstbucket_priority=8035)
+inserting state <1 7> with g=8085
+inserting state <0 7> with g=8105
+inserting state <0 8> with g=8145
+currentminelement_priority before pop=8035
+expanding state <0 5> with g=8035 (currentminelement_priority=8050, currentfirstbucket_bindex=8035, currentfirstbucket_priority=8035)
+currentminelement_priority before pop=8050
+expanding state <0 6> with g=8050 (currentminelement_priority=8050, currentfirstbucket_bindex=8050, currentfirstbucket_priority=8050)
+inserting state <0 7> with g=8100
+currentminelement_priority before pop=8050
+expanding state <5 8> with g=8050 (currentminelement_priority=8055, currentfirstbucket_bindex=8050, currentfirstbucket_priority=8050)
+inserting state <5 9> with g=8075
+inserting state <4 10> with g=8105
+inserting state <3 9> with g=8105
+currentminelement_priority before pop=8055
+currentminelement_priority before pop=8055
+expanding state <4 8> with g=8055 (currentminelement_priority=8060, currentfirstbucket_bindex=8055, currentfirstbucket_priority=8055)
+inserting state <3 9> with g=8090
+inserting state <5 10> with g=8110
+inserting state <3 10> with g=8110
+inserting state <2 9> with g=8165
+currentminelement_priority before pop=8060
+currentminelement_priority before pop=8060
+expanding state <3 7> with g=8060 (currentminelement_priority=8060, currentfirstbucket_bindex=8060, currentfirstbucket_priority=8060)
+currentminelement_priority before pop=8060
+expanding state <6 8> with g=8060 (currentminelement_priority=8070, currentfirstbucket_bindex=8060, currentfirstbucket_priority=8060)
+currentminelement_priority before pop=8070
+expanding state <2 7> with g=8070 (currentminelement_priority=8075, currentfirstbucket_bindex=8070, currentfirstbucket_priority=8070)
+inserting state <1 9> with g=8180
+currentminelement_priority before pop=8075
+currentminelement_priority before pop=8075
+expanding state <5 9> with g=8075 (currentminelement_priority=8080, currentfirstbucket_bindex=8075, currentfirstbucket_priority=8075)
+inserting state <5 10> with g=8100
+inserting state <4 11> with g=8130
+currentminelement_priority before pop=8080
+currentminelement_priority before pop=8080
+expanding state <4 9> with g=8080 (currentminelement_priority=8085, currentfirstbucket_bindex=8080, currentfirstbucket_priority=8080)
+inserting state <5 11> with g=8135
+inserting state <3 11> with g=8135
+inserting state <2 10> with g=8135
+currentminelement_priority before pop=8085
+currentminelement_priority before pop=8085
+expanding state <1 7> with g=8085 (currentminelement_priority=8090, currentfirstbucket_bindex=8085, currentfirstbucket_priority=8085)
+inserting state <0 9> with g=8195
+currentminelement_priority before pop=8090
+currentminelement_priority before pop=8090
+currentminelement_priority before pop=8090
+expanding state <3 9> with g=8090 (currentminelement_priority=8095, currentfirstbucket_bindex=8090, currentfirstbucket_priority=8090)
+inserting state <2 10> with g=8125
+inserting state <2 9> with g=8115
+inserting state <2 11> with g=8145
+inserting state <1 10> with g=8145
+currentminelement_priority before pop=8095
+currentminelement_priority before pop=8100
+expanding state <3 8> with g=8100 (currentminelement_priority=8100, currentfirstbucket_bindex=8100, currentfirstbucket_priority=8100)
+currentminelement_priority before pop=8100
+expanding state <0 7> with g=8100 (currentminelement_priority=8100, currentfirstbucket_bindex=8100, currentfirstbucket_priority=8100)
+currentminelement_priority before pop=8100
+expanding state <5 10> with g=8100 (currentminelement_priority=8105, currentfirstbucket_bindex=8100, currentfirstbucket_priority=8100)
+inserting state <5 11> with g=8125
+inserting state <4 12> with g=8155
+currentminelement_priority before pop=8105
+currentminelement_priority before pop=8105
+expanding state <4 10> with g=8105 (currentminelement_priority=8105, currentfirstbucket_bindex=8105, currentfirstbucket_priority=8105)
+inserting state <5 12> with g=8160
+inserting state <3 12> with g=8160
+currentminelement_priority before pop=8105
+currentminelement_priority before pop=8110
+currentminelement_priority before pop=8110
+currentminelement_priority before pop=8110
+expanding state <3 10> with g=8110 (currentminelement_priority=8115, currentfirstbucket_bindex=8110, currentfirstbucket_priority=8110)
+inserting state <2 12> with g=8165
+inserting state <1 11> with g=8165
+inserting state <1 9> with g=8165
+currentminelement_priority before pop=8115
+currentminelement_priority before pop=8115
+expanding state <2 9> with g=8115 (currentminelement_priority=8120, currentfirstbucket_bindex=8115, currentfirstbucket_priority=8115)
+inserting state <1 9> with g=8140
+inserting state <0 10> with g=8170
+currentminelement_priority before pop=8120
+expanding state <2 8> with g=8120 (currentminelement_priority=8125, currentfirstbucket_bindex=8120, currentfirstbucket_priority=8120)
+currentminelement_priority before pop=8125
+currentminelement_priority before pop=8125
+expanding state <2 10> with g=8125 (currentminelement_priority=8125, currentfirstbucket_bindex=8125, currentfirstbucket_priority=8125)
+inserting state <1 11> with g=8160
+inserting state <1 12> with g=8180
+inserting state <0 11> with g=8180
+inserting state <0 9> with g=8180
+currentminelement_priority before pop=8125
+expanding state <5 11> with g=8125 (currentminelement_priority=8130, currentfirstbucket_bindex=8125, currentfirstbucket_priority=8125)
+inserting state <5 12> with g=8150
+inserting state <4 13> with g=8180
+currentminelement_priority before pop=8130
+expanding state <1 8> with g=8130 (currentminelement_priority=8130, currentfirstbucket_bindex=8130, currentfirstbucket_priority=8130)
+currentminelement_priority before pop=8130
+expanding state <4 11> with g=8130 (currentminelement_priority=8135, currentfirstbucket_bindex=8130, currentfirstbucket_priority=8130)
+inserting state <5 13> with g=8185
+inserting state <3 13> with g=8185
+currentminelement_priority before pop=8135
+currentminelement_priority before pop=8135
+expanding state <3 11> with g=8135 (currentminelement_priority=8135, currentfirstbucket_bindex=8135, currentfirstbucket_priority=8135)
+inserting state <2 13> with g=8190
+currentminelement_priority before pop=8135
+currentminelement_priority before pop=8140
+currentminelement_priority before pop=8140
+expanding state <1 9> with g=8140 (currentminelement_priority=8145, currentfirstbucket_bindex=8140, currentfirstbucket_priority=8140)
+inserting state <0 9> with g=8165
+currentminelement_priority before pop=8145
+expanding state <0 8> with g=8145 (currentminelement_priority=8145, currentfirstbucket_bindex=8145, currentfirstbucket_priority=8145)
+currentminelement_priority before pop=8145
+expanding state <2 11> with g=8145 (currentminelement_priority=8145, currentfirstbucket_bindex=8145, currentfirstbucket_priority=8145)
+inserting state <1 13> with g=8200
+inserting state <0 12> with g=8200
+currentminelement_priority before pop=8145
+expanding state <1 10> with g=8145 (currentminelement_priority=8150, currentfirstbucket_bindex=8145, currentfirstbucket_priority=8145)
+currentminelement_priority before pop=8150
+expanding state <5 12> with g=8150 (currentminelement_priority=8155, currentfirstbucket_bindex=8150, currentfirstbucket_priority=8150)
+inserting state <5 13> with g=8175
+inserting state <4 14> with g=8205
+currentminelement_priority before pop=8155
+expanding state <4 12> with g=8155 (currentminelement_priority=8160, currentfirstbucket_bindex=8155, currentfirstbucket_priority=8155)
+inserting state <5 14> with g=8210
+inserting state <3 14> with g=8210
+currentminelement_priority before pop=8160
+currentminelement_priority before pop=8160
+expanding state <3 12> with g=8160 (currentminelement_priority=8160, currentfirstbucket_bindex=8160, currentfirstbucket_priority=8160)
+inserting state <2 14> with g=8215
+currentminelement_priority before pop=8160
+expanding state <1 11> with g=8160 (currentminelement_priority=8165, currentfirstbucket_bindex=8160, currentfirstbucket_priority=8160)
+inserting state <0 12> with g=8195
+inserting state <0 13> with g=8215
+currentminelement_priority before pop=8165
+currentminelement_priority before pop=8165
+expanding state <2 12> with g=8165 (currentminelement_priority=8165, currentfirstbucket_bindex=8165, currentfirstbucket_priority=8165)
+inserting state <1 14> with g=8220
+currentminelement_priority before pop=8165
+currentminelement_priority before pop=8165
+currentminelement_priority before pop=8165
+expanding state <0 9> with g=8165 (currentminelement_priority=8170, currentfirstbucket_bindex=8165, currentfirstbucket_priority=8165)
+currentminelement_priority before pop=8170
+expanding state <0 10> with g=8170 (currentminelement_priority=8175, currentfirstbucket_bindex=8170, currentfirstbucket_priority=8170)
+currentminelement_priority before pop=8175
+expanding state <5 13> with g=8175 (currentminelement_priority=8180, currentfirstbucket_bindex=8175, currentfirstbucket_priority=8175)
+inserting state <5 14> with g=8200
+currentminelement_priority before pop=8180
+currentminelement_priority before pop=8180
+expanding state <1 12> with g=8180 (currentminelement_priority=8180, currentfirstbucket_bindex=8180, currentfirstbucket_priority=8180)
+inserting state <0 14> with g=8235
+currentminelement_priority before pop=8180
+expanding state <0 11> with g=8180 (currentminelement_priority=8180, currentfirstbucket_bindex=8180, currentfirstbucket_priority=8180)
+currentminelement_priority before pop=8180
+currentminelement_priority before pop=8180
+expanding state <4 13> with g=8180 (currentminelement_priority=8185, currentfirstbucket_bindex=8180, currentfirstbucket_priority=8180)
+currentminelement_priority before pop=8185
+currentminelement_priority before pop=8185
+expanding state <3 13> with g=8185 (currentminelement_priority=8190, currentfirstbucket_bindex=8185, currentfirstbucket_priority=8185)
+currentminelement_priority before pop=8190
+expanding state <2 13> with g=8190 (currentminelement_priority=8195, currentfirstbucket_bindex=8190, currentfirstbucket_priority=8190)
+currentminelement_priority before pop=8195
+currentminelement_priority before pop=8195
+expanding state <0 12> with g=8195 (currentminelement_priority=8200, currentfirstbucket_bindex=8195, currentfirstbucket_priority=8195)
+currentminelement_priority before pop=8200
+expanding state <1 13> with g=8200 (currentminelement_priority=8200, currentfirstbucket_bindex=8200, currentfirstbucket_priority=8200)
+currentminelement_priority before pop=8200
+currentminelement_priority before pop=8200
+expanding state <5 14> with g=8200 (currentminelement_priority=8205, currentfirstbucket_bindex=8200, currentfirstbucket_priority=8200)
+currentminelement_priority before pop=8205
+expanding state <4 14> with g=8205 (currentminelement_priority=8210, currentfirstbucket_bindex=8205, currentfirstbucket_priority=8205)
+currentminelement_priority before pop=8210
+currentminelement_priority before pop=8210
+expanding state <3 14> with g=8210 (currentminelement_priority=8215, currentfirstbucket_bindex=8210, currentfirstbucket_priority=8210)
+currentminelement_priority before pop=8215
+expanding state <2 14> with g=8215 (currentminelement_priority=8215, currentfirstbucket_bindex=8215, currentfirstbucket_priority=8215)
+currentminelement_priority before pop=8215
+expanding state <0 13> with g=8215 (currentminelement_priority=8220, currentfirstbucket_bindex=8215, currentfirstbucket_priority=8215)
+currentminelement_priority before pop=8220
+expanding state <1 14> with g=8220 (currentminelement_priority=8235, currentfirstbucket_bindex=8220, currentfirstbucket_priority=8220)
+currentminelement_priority before pop=8235
+expanding state <0 14> with g=8235 (currentminelement_priority=8380, currentfirstbucket_bindex=8235, currentfirstbucket_priority=8235)
+currentminelement_priority before pop=8380
+currentminelement_priority before pop=8400
+currentminelement_priority before pop=8885
+currentminelement_priority before pop=9685
+currentminelement_priority before pop=10205
+currentminelement_priority before pop=10905
+currentminelement_priority before pop=10905
+currentminelement_priority before pop=10925
+currentminelement_priority before pop=11155
+currentminelement_priority before pop=11160
+currentminelement_priority before pop=11175
+currentminelement_priority before pop=11180
+currentminelement_priority before pop=11195
+currentminelement_priority before pop=11195
+currentminelement_priority before pop=11210
+currentminelement_priority before pop=11230
+currentminelement_priority before pop=12705
+currentminelement_priority before pop=14715
+currentminelement_priority before pop=14715
