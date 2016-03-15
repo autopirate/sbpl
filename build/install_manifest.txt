@@ -26,7 +26,6 @@
 /usr/local/include/sbpl/config.h
 /usr/local/include/sbpl/heuristics/embedded_heuristic.h
 /usr/local/include/sbpl/heuristics/heuristic.h
-/usr/local/include/sbpl/discrete_space_information/environment_navxythetalat_mod.h
 /usr/local/include/sbpl/discrete_space_information/environment_nav2Duu.h
 /usr/local/include/sbpl/discrete_space_information/environment_XXX.h
 /usr/local/include/sbpl/discrete_space_information/environment_robarm.h

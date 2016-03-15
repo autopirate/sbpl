@@ -1,0 +1,364 @@
+footprint cells (size=1):
+0 0 (cont: 0.013 0.013)
+action tind= 0 aind= 0: dX=  1 dY=  0 endtheta=  0 (  0.00 degs ->   0.00 degs) cost=  25 (mprimID   0:   1   0   0) numofintermcells = 2 numofintercells=1
+action tind= 0 aind= 1: dX=  8 dY=  0 endtheta=  0 (  0.00 degs ->   0.00 degs) cost= 200 (mprimID   1:   8   0   0) numofintermcells = 9 numofintercells=8
+action tind= 0 aind= 2: dX= -1 dY=  0 endtheta=  0 (  0.00 degs ->   0.00 degs) cost= 125 (mprimID   2:  -1   0   0) numofintermcells = 2 numofintercells=1
+action tind= 0 aind= 3: dX=  8 dY=  1 endtheta=  1 (  0.00 degs ->  22.50 degs) cost=20000 (mprimID   3:   8   1   1) numofintermcells = 9 numofintercells=10
+action tind= 0 aind= 4: dX=  8 dY= -1 endtheta= 15 (  0.00 degs -> 337.50 degs) cost=20020 (mprimID   4:   8  -1  15) numofintermcells = 9 numofintercells=10
+action tind= 0 aind= 5: dX=  0 dY=  0 endtheta=  1 (  0.00 degs ->  22.50 degs) cost=1000 (mprimID   5:   0   0   1) numofintermcells = 1 numofintercells=0
+action tind= 0 aind= 6: dX=  0 dY=  0 endtheta= 15 (  0.00 degs -> 337.50 degs) cost=1001 (mprimID   6:   0   0  15) numofintermcells = 1 numofintercells=0
+action tind= 0 aind= 7: dX=  0 dY=  1 endtheta=  0 (  0.00 degs ->   0.00 degs) cost=  25 (mprimID   7:   0   1   0) numofintermcells = 2 numofintercells=1
+action tind= 0 aind= 8: dX=  0 dY= -1 endtheta=  0 (  0.00 degs ->   0.00 degs) cost=  25 (mprimID   8:   0  -1   0) numofintermcells = 2 numofintercells=1
+action tind= 0 aind= 9: dX= -8 dY= -1 endtheta=  1 (  0.00 degs ->  22.50 degs) cost=5000 (mprimID   9:  -8  -1   1) numofintermcells = 9 numofintercells=10
+action tind= 0 aind=10: dX= -8 dY=  1 endtheta= 15 (  0.00 degs -> 337.50 degs) cost=5005 (mprimID  10:  -8   1  15) numofintermcells = 9 numofintercells=10
+action tind= 0 aind=11: dX=  8 dY=  1 endtheta=  0 (  0.00 degs ->   0.00 degs) cost= 202 (mprimID  11:   8   1   0) numofintermcells = 10 numofintercells=13
+action tind= 0 aind=12: dX=  8 dY= -1 endtheta=  0 (  0.00 degs ->   0.00 degs) cost= 202 (mprimID  12:   8  -1   0) numofintermcells = 10 numofintercells=13
+action tind= 1 aind= 0: dX=  2 dY=  1 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost=  56 (mprimID   0:   2   1   1) numofintermcells = 4 numofintercells=4
+action tind= 1 aind= 1: dX=  6 dY=  3 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost= 168 (mprimID   1:   6   3   1) numofintermcells = 10 numofintercells=12
+action tind= 1 aind= 2: dX= -2 dY= -1 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost= 280 (mprimID   2:  -2  -1   1) numofintermcells = 4 numofintercells=4
+action tind= 1 aind= 3: dX=  5 dY=  4 endtheta=  2 ( 22.50 degs ->  38.12 degs) cost=20000 (mprimID   3:   5   4   2) numofintermcells = 8 numofintercells=12
+action tind= 1 aind= 4: dX=  7 dY=  2 endtheta=  0 ( 22.50 degs ->   0.00 degs) cost=20000 (mprimID   4:   7   2   0) numofintermcells = 8 numofintercells=11
+action tind= 1 aind= 5: dX=  0 dY=  0 endtheta=  2 ( 22.50 degs ->  45.00 degs) cost=1000 (mprimID   5:   0   0   2) numofintermcells = 1 numofintercells=0
+action tind= 1 aind= 6: dX=  0 dY=  0 endtheta=  0 ( 22.50 degs ->   0.00 degs) cost=1000 (mprimID   6:   0   0   0) numofintermcells = 1 numofintercells=0
+action tind= 1 aind= 7: dX= -1 dY=  2 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost=  56 (mprimID   7:  -1   2   1) numofintermcells = 4 numofintercells=4
+action tind= 1 aind= 8: dX=  1 dY= -2 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost=  56 (mprimID   8:   1  -2   1) numofintermcells = 4 numofintercells=4
+action tind= 1 aind= 9: dX= -5 dY= -4 endtheta=  2 ( 22.50 degs ->  38.12 degs) cost=5000 (mprimID   9:  -5  -4   2) numofintermcells = 9 numofintercells=12
+action tind= 1 aind=10: dX= -7 dY= -2 endtheta=  0 ( 22.50 degs ->   0.00 degs) cost=5000 (mprimID  10:  -7  -2   0) numofintermcells = 8 numofintercells=12
+action tind= 1 aind=11: dX=  5 dY=  4 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost= 161 (mprimID  11:   5   4   1) numofintermcells = 10 numofintercells=12
+action tind= 1 aind=12: dX=  7 dY=  2 endtheta=  1 ( 22.50 degs ->  22.50 degs) cost= 183 (mprimID  12:   7   2   1) numofintermcells = 10 numofintercells=12
+action tind= 2 aind= 0: dX=  1 dY=  1 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost=  36 (mprimID   0:   1   1   2) numofintermcells = 2 numofintercells=3
+action tind= 2 aind= 1: dX=  6 dY=  6 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost= 213 (mprimID   1:   6   6   2) numofintermcells = 7 numofintercells=18
+action tind= 2 aind= 2: dX= -1 dY= -1 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost= 180 (mprimID   2:  -1  -1   2) numofintermcells = 2 numofintercells=3
+action tind= 2 aind= 3: dX=  5 dY=  7 endtheta=  3 ( 45.00 degs ->  67.50 degs) cost=20000 (mprimID   3:   5   7   3) numofintermcells = 9 numofintercells=15
+action tind= 2 aind= 4: dX=  7 dY=  5 endtheta=  1 ( 45.00 degs ->  22.50 degs) cost=20000 (mprimID   4:   7   5   1) numofintermcells = 9 numofintercells=14
+action tind= 2 aind= 5: dX=  0 dY=  0 endtheta=  3 ( 45.00 degs ->  67.50 degs) cost=1000 (mprimID   5:   0   0   3) numofintermcells = 1 numofintercells=0
+action tind= 2 aind= 6: dX=  0 dY=  0 endtheta=  1 ( 45.00 degs ->  22.50 degs) cost=1000 (mprimID   6:   0   0   1) numofintermcells = 1 numofintercells=0
+action tind= 2 aind= 7: dX= -1 dY=  1 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost=  36 (mprimID   7:  -1   1   2) numofintermcells = 2 numofintercells=3
+action tind= 2 aind= 8: dX=  1 dY= -1 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost=  36 (mprimID   8:   1  -1   2) numofintermcells = 2 numofintercells=3
+action tind= 2 aind= 9: dX= -5 dY= -7 endtheta=  3 ( 45.00 degs ->  67.50 degs) cost=5000 (mprimID   9:  -5  -7   3) numofintermcells = 9 numofintercells=14
+action tind= 2 aind=10: dX= -7 dY= -5 endtheta=  1 ( 45.00 degs ->  22.50 degs) cost=5000 (mprimID  10:  -7  -5   1) numofintermcells = 9 numofintercells=15
+action tind= 2 aind=11: dX=  5 dY=  7 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost= 216 (mprimID  11:   5   7   2) numofintermcells = 10 numofintercells=16
+action tind= 2 aind=12: dX=  7 dY=  5 endtheta=  2 ( 45.00 degs ->  45.00 degs) cost= 216 (mprimID  12:   7   5   2) numofintermcells = 10 numofintercells=16
+action tind= 3 aind= 0: dX=  1 dY=  2 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost=  56 (mprimID   0:   1   2   3) numofintermcells = 4 numofintercells=4
+action tind= 3 aind= 1: dX=  3 dY=  6 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost= 168 (mprimID   1:   3   6   3) numofintermcells = 10 numofintercells=12
+action tind= 3 aind= 2: dX= -1 dY= -2 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost= 280 (mprimID   2:  -1  -2   3) numofintermcells = 4 numofintercells=4
+action tind= 3 aind= 3: dX=  4 dY=  5 endtheta=  2 ( 67.50 degs ->  51.88 degs) cost=20000 (mprimID   3:   4   5   2) numofintermcells = 8 numofintercells=12
+action tind= 3 aind= 4: dX=  2 dY=  7 endtheta=  4 ( 67.50 degs ->  90.00 degs) cost=20000 (mprimID   4:   2   7   4) numofintermcells = 8 numofintercells=12
+action tind= 3 aind= 5: dX=  0 dY=  0 endtheta=  2 ( 67.50 degs ->  45.00 degs) cost=1000 (mprimID   5:   0   0   2) numofintermcells = 1 numofintercells=0
+action tind= 3 aind= 6: dX=  0 dY=  0 endtheta=  4 ( 67.50 degs ->  90.00 degs) cost=1000 (mprimID   6:   0   0   4) numofintermcells = 1 numofintercells=0
+action tind= 3 aind= 7: dX=  2 dY= -1 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost=  56 (mprimID   7:   2  -1   3) numofintermcells = 4 numofintercells=4
+action tind= 3 aind= 8: dX= -2 dY=  1 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost=  56 (mprimID   8:  -2   1   3) numofintermcells = 4 numofintercells=4
+action tind= 3 aind= 9: dX= -4 dY= -5 endtheta=  2 ( 67.50 degs ->  51.88 degs) cost=5000 (mprimID   9:  -4  -5   2) numofintermcells = 9 numofintercells=12
+action tind= 3 aind=10: dX= -2 dY= -7 endtheta=  4 ( 67.50 degs ->  90.00 degs) cost=5000 (mprimID  10:  -2  -7   4) numofintermcells = 8 numofintercells=11
+action tind= 3 aind=11: dX=  4 dY=  5 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost= 161 (mprimID  11:   4   5   3) numofintermcells = 10 numofintercells=12
+action tind= 3 aind=12: dX=  2 dY=  7 endtheta=  3 ( 67.50 degs ->  67.50 degs) cost= 183 (mprimID  12:   2   7   3) numofintermcells = 10 numofintercells=12
+action tind= 4 aind= 0: dX=  0 dY=  1 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost=  25 (mprimID   0:   0   1   4) numofintermcells = 2 numofintercells=1
+action tind= 4 aind= 1: dX=  0 dY=  8 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost= 200 (mprimID   1:   0   8   4) numofintermcells = 9 numofintercells=8
+action tind= 4 aind= 2: dX=  0 dY= -1 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost= 125 (mprimID   2:   0  -1   4) numofintermcells = 2 numofintercells=1
+action tind= 4 aind= 3: dX= -1 dY=  8 endtheta=  5 ( 90.00 degs -> 112.50 degs) cost=20000 (mprimID   3:  -1   8   5) numofintermcells = 9 numofintercells=10
+action tind= 4 aind= 4: dX=  1 dY=  8 endtheta=  3 ( 90.00 degs ->  67.50 degs) cost=20000 (mprimID   4:   1   8   3) numofintermcells = 9 numofintercells=10
+action tind= 4 aind= 5: dX=  0 dY=  0 endtheta=  5 ( 90.00 degs -> 112.50 degs) cost=1000 (mprimID   5:   0   0   5) numofintermcells = 1 numofintercells=0
+action tind= 4 aind= 6: dX=  0 dY=  0 endtheta=  3 ( 90.00 degs ->  67.50 degs) cost=1000 (mprimID   6:   0   0   3) numofintermcells = 1 numofintercells=0
+action tind= 4 aind= 7: dX= -1 dY=  0 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost=  25 (mprimID   7:  -1   0   4) numofintermcells = 2 numofintercells=1
+action tind= 4 aind= 8: dX=  1 dY=  0 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost=  25 (mprimID   8:   1   0   4) numofintermcells = 2 numofintercells=1
+action tind= 4 aind= 9: dX=  1 dY= -8 endtheta=  5 ( 90.00 degs -> 112.50 degs) cost=5000 (mprimID   9:   1  -8   5) numofintermcells = 9 numofintercells=10
+action tind= 4 aind=10: dX= -1 dY= -8 endtheta=  3 ( 90.00 degs ->  67.50 degs) cost=5000 (mprimID  10:  -1  -8   3) numofintermcells = 9 numofintercells=10
+action tind= 4 aind=11: dX= -1 dY=  8 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost= 202 (mprimID  11:  -1   8   4) numofintermcells = 10 numofintercells=13
+action tind= 4 aind=12: dX=  1 dY=  8 endtheta=  4 ( 90.00 degs ->  90.00 degs) cost= 202 (mprimID  12:   1   8   4) numofintermcells = 10 numofintercells=13
+action tind= 5 aind= 0: dX= -1 dY=  2 endtheta=  5 (112.50 degs -> 112.50 degs) cost=  56 (mprimID   0:  -1   2   5) numofintermcells = 4 numofintercells=4
+action tind= 5 aind= 1: dX= -3 dY=  6 endtheta=  5 (112.50 degs -> 112.50 degs) cost= 168 (mprimID   1:  -3   6   5) numofintermcells = 10 numofintercells=12
+action tind= 5 aind= 2: dX=  1 dY= -2 endtheta=  5 (112.50 degs -> 112.50 degs) cost= 280 (mprimID   2:   1  -2   5) numofintermcells = 4 numofintercells=4
+action tind= 5 aind= 3: dX= -4 dY=  5 endtheta=  6 (112.50 degs -> 128.12 degs) cost=20000 (mprimID   3:  -4   5   6) numofintermcells = 9 numofintercells=12
+action tind= 5 aind= 4: dX= -2 dY=  7 endtheta=  4 (112.50 degs ->  90.00 degs) cost=20000 (mprimID   4:  -2   7   4) numofintermcells = 8 numofintercells=11
+action tind= 5 aind= 5: dX=  0 dY=  0 endtheta=  6 (112.50 degs -> 135.00 degs) cost=1000 (mprimID   5:   0   0   6) numofintermcells = 1 numofintercells=0
+action tind= 5 aind= 6: dX=  0 dY=  0 endtheta=  4 (112.50 degs ->  90.00 degs) cost=1000 (mprimID   6:   0   0   4) numofintermcells = 1 numofintercells=0
+action tind= 5 aind= 7: dX= -2 dY= -1 endtheta=  5 (112.50 degs -> 112.50 degs) cost=  56 (mprimID   7:  -2  -1   5) numofintermcells = 4 numofintercells=4
+action tind= 5 aind= 8: dX=  2 dY=  1 endtheta=  5 (112.50 degs -> 112.50 degs) cost=  56 (mprimID   8:   2   1   5) numofintermcells = 4 numofintercells=4
+action tind= 5 aind= 9: dX=  4 dY= -5 endtheta=  6 (112.50 degs -> 128.12 degs) cost=5000 (mprimID   9:   4  -5   6) numofintermcells = 8 numofintercells=12
+action tind= 5 aind=10: dX=  2 dY= -7 endtheta=  4 (112.50 degs ->  90.00 degs) cost=5000 (mprimID  10:   2  -7   4) numofintermcells = 8 numofintercells=12
+action tind= 5 aind=11: dX= -4 dY=  5 endtheta=  5 (112.50 degs -> 112.50 degs) cost= 161 (mprimID  11:  -4   5   5) numofintermcells = 10 numofintercells=12
+action tind= 5 aind=12: dX= -2 dY=  7 endtheta=  5 (112.50 degs -> 112.50 degs) cost= 183 (mprimID  12:  -2   7   5) numofintermcells = 10 numofintercells=12
+action tind= 6 aind= 0: dX= -1 dY=  1 endtheta=  6 (135.00 degs -> 135.00 degs) cost=  36 (mprimID   0:  -1   1   6) numofintermcells = 2 numofintercells=3
+action tind= 6 aind= 1: dX= -6 dY=  6 endtheta=  6 (135.00 degs -> 135.00 degs) cost= 213 (mprimID   1:  -6   6   6) numofintermcells = 7 numofintercells=18
+action tind= 6 aind= 2: dX=  1 dY= -1 endtheta=  6 (135.00 degs -> 135.00 degs) cost= 180 (mprimID   2:   1  -1   6) numofintermcells = 2 numofintercells=3
+action tind= 6 aind= 3: dX= -7 dY=  5 endtheta=  7 (135.00 degs -> 157.50 degs) cost=20000 (mprimID   3:  -7   5   7) numofintermcells = 9 numofintercells=15
+action tind= 6 aind= 4: dX= -5 dY=  7 endtheta=  5 (135.00 degs -> 112.50 degs) cost=20000 (mprimID   4:  -5   7   5) numofintermcells = 9 numofintercells=14
+action tind= 6 aind= 5: dX=  0 dY=  0 endtheta=  7 (135.00 degs -> 157.50 degs) cost=1000 (mprimID   5:   0   0   7) numofintermcells = 1 numofintercells=0
+action tind= 6 aind= 6: dX=  0 dY=  0 endtheta=  5 (135.00 degs -> 112.50 degs) cost=1000 (mprimID   6:   0   0   5) numofintermcells = 1 numofintercells=0
+action tind= 6 aind= 7: dX= -1 dY= -1 endtheta=  6 (135.00 degs -> 135.00 degs) cost=  36 (mprimID   7:  -1  -1   6) numofintermcells = 2 numofintercells=3
+action tind= 6 aind= 8: dX=  1 dY=  1 endtheta=  6 (135.00 degs -> 135.00 degs) cost=  36 (mprimID   8:   1   1   6) numofintermcells = 2 numofintercells=3
+action tind= 6 aind= 9: dX=  7 dY= -5 endtheta=  7 (135.00 degs -> 157.50 degs) cost=5000 (mprimID   9:   7  -5   7) numofintermcells = 9 numofintercells=14
+action tind= 6 aind=10: dX=  5 dY= -7 endtheta=  5 (135.00 degs -> 112.50 degs) cost=5000 (mprimID  10:   5  -7   5) numofintermcells = 9 numofintercells=15
+action tind= 6 aind=11: dX= -7 dY=  5 endtheta=  6 (135.00 degs -> 135.00 degs) cost= 216 (mprimID  11:  -7   5   6) numofintermcells = 10 numofintercells=16
+action tind= 6 aind=12: dX= -5 dY=  7 endtheta=  6 (135.00 degs -> 135.00 degs) cost= 216 (mprimID  12:  -5   7   6) numofintermcells = 10 numofintercells=16
+action tind= 7 aind= 0: dX= -2 dY=  1 endtheta=  7 (157.50 degs -> 157.50 degs) cost=  56 (mprimID   0:  -2   1   7) numofintermcells = 4 numofintercells=4
+action tind= 7 aind= 1: dX= -6 dY=  3 endtheta=  7 (157.50 degs -> 157.50 degs) cost= 168 (mprimID   1:  -6   3   7) numofintermcells = 10 numofintercells=12
+action tind= 7 aind= 2: dX=  2 dY= -1 endtheta=  7 (157.50 degs -> 157.50 degs) cost= 280 (mprimID   2:   2  -1   7) numofintermcells = 4 numofintercells=4
+action tind= 7 aind= 3: dX= -5 dY=  4 endtheta=  6 (157.50 degs -> 141.88 degs) cost=20000 (mprimID   3:  -5   4   6) numofintermcells = 8 numofintercells=12
+action tind= 7 aind= 4: dX= -7 dY=  2 endtheta=  8 (157.50 degs -> 180.00 degs) cost=20000 (mprimID   4:  -7   2   8) numofintermcells = 8 numofintercells=12
+action tind= 7 aind= 5: dX=  0 dY=  0 endtheta=  6 (157.50 degs -> 135.00 degs) cost=1000 (mprimID   5:   0   0   6) numofintermcells = 1 numofintercells=0
+action tind= 7 aind= 6: dX=  0 dY=  0 endtheta=  8 (157.50 degs -> 180.00 degs) cost=1000 (mprimID   6:   0   0   8) numofintermcells = 1 numofintercells=0
+action tind= 7 aind= 7: dX=  1 dY=  2 endtheta=  7 (157.50 degs -> 157.50 degs) cost=  56 (mprimID   7:   1   2   7) numofintermcells = 4 numofintercells=4
+action tind= 7 aind= 8: dX= -1 dY= -2 endtheta=  7 (157.50 degs -> 157.50 degs) cost=  56 (mprimID   8:  -1  -2   7) numofintermcells = 4 numofintercells=4
+action tind= 7 aind= 9: dX=  5 dY= -4 endtheta=  6 (157.50 degs -> 141.88 degs) cost=5000 (mprimID   9:   5  -4   6) numofintermcells = 9 numofintercells=12
+action tind= 7 aind=10: dX=  7 dY= -2 endtheta=  8 (157.50 degs -> 180.00 degs) cost=5000 (mprimID  10:   7  -2   8) numofintermcells = 8 numofintercells=11
+action tind= 7 aind=11: dX= -5 dY=  4 endtheta=  7 (157.50 degs -> 157.50 degs) cost= 161 (mprimID  11:  -5   4   7) numofintermcells = 10 numofintercells=12
+action tind= 7 aind=12: dX= -7 dY=  2 endtheta=  7 (157.50 degs -> 157.50 degs) cost= 183 (mprimID  12:  -7   2   7) numofintermcells = 10 numofintercells=12
+action tind= 8 aind= 0: dX= -1 dY=  0 endtheta=  8 (180.00 degs -> 180.00 degs) cost=  25 (mprimID   0:  -1   0   8) numofintermcells = 2 numofintercells=1
+action tind= 8 aind= 1: dX= -8 dY=  0 endtheta=  8 (180.00 degs -> 180.00 degs) cost= 200 (mprimID   1:  -8   0   8) numofintermcells = 9 numofintercells=8
+action tind= 8 aind= 2: dX=  1 dY=  0 endtheta=  8 (180.00 degs -> 180.00 degs) cost= 125 (mprimID   2:   1   0   8) numofintermcells = 2 numofintercells=1
+action tind= 8 aind= 3: dX= -8 dY= -1 endtheta=  9 (180.00 degs -> 202.50 degs) cost=20000 (mprimID   3:  -8  -1   9) numofintermcells = 9 numofintercells=10
+action tind= 8 aind= 4: dX= -8 dY=  1 endtheta=  7 (180.00 degs -> 157.50 degs) cost=20000 (mprimID   4:  -8   1   7) numofintermcells = 9 numofintercells=10
+action tind= 8 aind= 5: dX=  0 dY=  0 endtheta=  9 (180.00 degs -> 202.50 degs) cost=1000 (mprimID   5:   0   0   9) numofintermcells = 1 numofintercells=0
+action tind= 8 aind= 6: dX=  0 dY=  0 endtheta=  7 (180.00 degs -> 157.50 degs) cost=1000 (mprimID   6:   0   0   7) numofintermcells = 1 numofintercells=0
+action tind= 8 aind= 7: dX=  0 dY= -1 endtheta=  8 (180.00 degs -> 180.00 degs) cost=  25 (mprimID   7:   0  -1   8) numofintermcells = 2 numofintercells=1
+action tind= 8 aind= 8: dX=  0 dY=  1 endtheta=  8 (180.00 degs -> 180.00 degs) cost=  25 (mprimID   8:   0   1   8) numofintermcells = 2 numofintercells=1
+action tind= 8 aind= 9: dX=  8 dY=  1 endtheta=  9 (180.00 degs -> 202.50 degs) cost=5000 (mprimID   9:   8   1   9) numofintermcells = 9 numofintercells=10
+action tind= 8 aind=10: dX=  8 dY= -1 endtheta=  7 (180.00 degs -> 157.50 degs) cost=5000 (mprimID  10:   8  -1   7) numofintermcells = 9 numofintercells=10
+action tind= 8 aind=11: dX= -8 dY= -1 endtheta=  8 (180.00 degs -> 180.00 degs) cost= 202 (mprimID  11:  -8  -1   8) numofintermcells = 10 numofintercells=13
+action tind= 8 aind=12: dX= -8 dY=  1 endtheta=  8 (180.00 degs -> 180.00 degs) cost= 202 (mprimID  12:  -8   1   8) numofintermcells = 10 numofintercells=13
+action tind= 9 aind= 0: dX= -2 dY= -1 endtheta=  9 (202.50 degs -> 202.50 degs) cost=  56 (mprimID   0:  -2  -1   9) numofintermcells = 4 numofintercells=4
+action tind= 9 aind= 1: dX= -6 dY= -3 endtheta=  9 (202.50 degs -> 202.50 degs) cost= 168 (mprimID   1:  -6  -3   9) numofintermcells = 10 numofintercells=12
+action tind= 9 aind= 2: dX=  2 dY=  1 endtheta=  9 (202.50 degs -> 202.50 degs) cost= 280 (mprimID   2:   2   1   9) numofintermcells = 4 numofintercells=4
+action tind= 9 aind= 3: dX= -5 dY= -4 endtheta= 10 (202.50 degs -> 218.13 degs) cost=20000 (mprimID   3:  -5  -4  10) numofintermcells = 9 numofintercells=12
+action tind= 9 aind= 4: dX= -7 dY= -2 endtheta=  8 (202.50 degs -> 180.00 degs) cost=20000 (mprimID   4:  -7  -2   8) numofintermcells = 8 numofintercells=12
+action tind= 9 aind= 5: dX=  0 dY=  0 endtheta= 10 (202.50 degs -> 225.00 degs) cost=1000 (mprimID   5:   0   0  10) numofintermcells = 1 numofintercells=0
+action tind= 9 aind= 6: dX=  0 dY=  0 endtheta=  8 (202.50 degs -> 180.00 degs) cost=1000 (mprimID   6:   0   0   8) numofintermcells = 1 numofintercells=0
+action tind= 9 aind= 7: dX=  1 dY= -2 endtheta=  9 (202.50 degs -> 202.50 degs) cost=  56 (mprimID   7:   1  -2   9) numofintermcells = 4 numofintercells=4
+action tind= 9 aind= 8: dX= -1 dY=  2 endtheta=  9 (202.50 degs -> 202.50 degs) cost=  56 (mprimID   8:  -1   2   9) numofintermcells = 4 numofintercells=4
+action tind= 9 aind= 9: dX=  5 dY=  4 endtheta= 10 (202.50 degs -> 218.13 degs) cost=5000 (mprimID   9:   5   4  10) numofintermcells = 8 numofintercells=12
+action tind= 9 aind=10: dX=  7 dY=  2 endtheta=  8 (202.50 degs -> 180.00 degs) cost=5000 (mprimID  10:   7   2   8) numofintermcells = 8 numofintercells=11
+action tind= 9 aind=11: dX= -5 dY= -4 endtheta=  9 (202.50 degs -> 202.50 degs) cost= 161 (mprimID  11:  -5  -4   9) numofintermcells = 10 numofintercells=12
+action tind= 9 aind=12: dX= -7 dY= -2 endtheta=  9 (202.50 degs -> 202.50 degs) cost= 183 (mprimID  12:  -7  -2   9) numofintermcells = 10 numofintercells=12
+action tind=10 aind= 0: dX= -1 dY= -1 endtheta= 10 (225.00 degs -> 225.00 degs) cost=  36 (mprimID   0:  -1  -1  10) numofintermcells = 2 numofintercells=3
+action tind=10 aind= 1: dX= -6 dY= -6 endtheta= 10 (225.00 degs -> 225.00 degs) cost= 213 (mprimID   1:  -6  -6  10) numofintermcells = 7 numofintercells=18
+action tind=10 aind= 2: dX=  1 dY=  1 endtheta= 10 (225.00 degs -> 225.00 degs) cost= 180 (mprimID   2:   1   1  10) numofintermcells = 2 numofintercells=3
+action tind=10 aind= 3: dX= -5 dY= -7 endtheta= 11 (225.00 degs -> 247.50 degs) cost=20000 (mprimID   3:  -5  -7  11) numofintermcells = 9 numofintercells=14
+action tind=10 aind= 4: dX= -7 dY= -5 endtheta=  9 (225.00 degs -> 202.50 degs) cost=20000 (mprimID   4:  -7  -5   9) numofintermcells = 9 numofintercells=15
+action tind=10 aind= 5: dX=  0 dY=  0 endtheta= 11 (225.00 degs -> 247.50 degs) cost=1000 (mprimID   5:   0   0  11) numofintermcells = 1 numofintercells=0
+action tind=10 aind= 6: dX=  0 dY=  0 endtheta=  9 (225.00 degs -> 202.50 degs) cost=1000 (mprimID   6:   0   0   9) numofintermcells = 1 numofintercells=0
+action tind=10 aind= 7: dX=  1 dY= -1 endtheta= 10 (225.00 degs -> 225.00 degs) cost=  36 (mprimID   7:   1  -1  10) numofintermcells = 2 numofintercells=3
+action tind=10 aind= 8: dX= -1 dY=  1 endtheta= 10 (225.00 degs -> 225.00 degs) cost=  36 (mprimID   8:  -1   1  10) numofintermcells = 2 numofintercells=3
+action tind=10 aind= 9: dX=  5 dY=  7 endtheta= 11 (225.00 degs -> 247.50 degs) cost=5000 (mprimID   9:   5   7  11) numofintermcells = 9 numofintercells=15
+action tind=10 aind=10: dX=  7 dY=  5 endtheta=  9 (225.00 degs -> 202.50 degs) cost=5000 (mprimID  10:   7   5   9) numofintermcells = 9 numofintercells=14
+action tind=10 aind=11: dX= -5 dY= -7 endtheta= 10 (225.00 degs -> 225.00 degs) cost= 216 (mprimID  11:  -5  -7  10) numofintermcells = 10 numofintercells=16
+action tind=10 aind=12: dX= -7 dY= -5 endtheta= 10 (225.00 degs -> 225.00 degs) cost= 216 (mprimID  12:  -7  -5  10) numofintermcells = 10 numofintercells=16
+action tind=11 aind= 0: dX= -1 dY= -2 endtheta= 11 (247.50 degs -> 247.50 degs) cost=  56 (mprimID   0:  -1  -2  11) numofintermcells = 4 numofintercells=4
+action tind=11 aind= 1: dX= -3 dY= -6 endtheta= 11 (247.50 degs -> 247.50 degs) cost= 168 (mprimID   1:  -3  -6  11) numofintermcells = 10 numofintercells=12
+action tind=11 aind= 2: dX=  1 dY=  2 endtheta= 11 (247.50 degs -> 247.50 degs) cost= 280 (mprimID   2:   1   2  11) numofintermcells = 4 numofintercells=4
+action tind=11 aind= 3: dX= -4 dY= -5 endtheta= 10 (247.50 degs -> 231.88 degs) cost=20000 (mprimID   3:  -4  -5  10) numofintermcells = 9 numofintercells=12
+action tind=11 aind= 4: dX= -2 dY= -7 endtheta= 12 (247.50 degs -> 270.00 degs) cost=20020 (mprimID   4:  -2  -7  12) numofintermcells = 8 numofintercells=11
+action tind=11 aind= 5: dX=  0 dY=  0 endtheta= 10 (247.50 degs -> 225.00 degs) cost=1000 (mprimID   5:   0   0  10) numofintermcells = 1 numofintercells=0
+action tind=11 aind= 6: dX=  0 dY=  0 endtheta= 12 (247.50 degs -> 270.00 degs) cost=1001 (mprimID   6:   0   0  12) numofintermcells = 1 numofintercells=0
+action tind=11 aind= 7: dX= -2 dY=  1 endtheta= 11 (247.50 degs -> 247.50 degs) cost=  56 (mprimID   7:  -2   1  11) numofintermcells = 4 numofintercells=4
+action tind=11 aind= 8: dX=  2 dY= -1 endtheta= 11 (247.50 degs -> 247.50 degs) cost=  56 (mprimID   8:   2  -1  11) numofintermcells = 4 numofintercells=4
+action tind=11 aind= 9: dX=  4 dY=  5 endtheta= 10 (247.50 degs -> 231.88 degs) cost=5000 (mprimID   9:   4   5  10) numofintermcells = 8 numofintercells=12
+action tind=11 aind=10: dX=  2 dY=  7 endtheta= 12 (247.50 degs -> 270.00 degs) cost=5005 (mprimID  10:   2   7  12) numofintermcells = 8 numofintercells=12
+action tind=11 aind=11: dX= -4 dY= -5 endtheta= 11 (247.50 degs -> 247.50 degs) cost= 161 (mprimID  11:  -4  -5  11) numofintermcells = 10 numofintercells=12
+action tind=11 aind=12: dX= -2 dY= -7 endtheta= 11 (247.50 degs -> 247.50 degs) cost= 183 (mprimID  12:  -2  -7  11) numofintermcells = 10 numofintercells=12
+action tind=12 aind= 0: dX=  0 dY= -1 endtheta= 12 (270.00 degs -> 270.00 degs) cost=  25 (mprimID   0:   0  -1  12) numofintermcells = 2 numofintercells=1
+action tind=12 aind= 1: dX=  0 dY= -8 endtheta= 12 (270.00 degs -> 270.00 degs) cost= 200 (mprimID   1:   0  -8  12) numofintermcells = 9 numofintercells=8
+action tind=12 aind= 2: dX=  0 dY=  1 endtheta= 12 (270.00 degs -> 270.00 degs) cost= 125 (mprimID   2:   0   1  12) numofintermcells = 2 numofintercells=1
+action tind=12 aind= 3: dX=  1 dY= -8 endtheta= 13 (270.00 degs -> 292.50 degs) cost=20020 (mprimID   3:   1  -8  13) numofintermcells = 9 numofintercells=10
+action tind=12 aind= 4: dX= -1 dY= -8 endtheta= 11 (270.00 degs -> 247.50 degs) cost=20020 (mprimID   4:  -1  -8  11) numofintermcells = 9 numofintercells=10
+action tind=12 aind= 5: dX=  0 dY=  0 endtheta= 13 (270.00 degs -> 292.50 degs) cost=1001 (mprimID   5:   0   0  13) numofintermcells = 1 numofintercells=0
+action tind=12 aind= 6: dX=  0 dY=  0 endtheta= 11 (270.00 degs -> 247.50 degs) cost=1001 (mprimID   6:   0   0  11) numofintermcells = 1 numofintercells=0
+action tind=12 aind= 7: dX=  1 dY=  0 endtheta= 12 (270.00 degs -> 270.00 degs) cost=  25 (mprimID   7:   1   0  12) numofintermcells = 2 numofintercells=1
+action tind=12 aind= 8: dX= -1 dY=  0 endtheta= 12 (270.00 degs -> 270.00 degs) cost=  25 (mprimID   8:  -1   0  12) numofintermcells = 2 numofintercells=1
+action tind=12 aind= 9: dX= -1 dY=  8 endtheta= 13 (270.00 degs -> 292.50 degs) cost=5005 (mprimID   9:  -1   8  13) numofintermcells = 9 numofintercells=10
+action tind=12 aind=10: dX=  1 dY=  8 endtheta= 11 (270.00 degs -> 247.50 degs) cost=5005 (mprimID  10:   1   8  11) numofintermcells = 9 numofintercells=10
+action tind=12 aind=11: dX=  1 dY= -8 endtheta= 12 (270.00 degs -> 270.00 degs) cost= 202 (mprimID  11:   1  -8  12) numofintermcells = 10 numofintercells=13
+action tind=12 aind=12: dX= -1 dY= -8 endtheta= 12 (270.00 degs -> 270.00 degs) cost= 202 (mprimID  12:  -1  -8  12) numofintermcells = 10 numofintercells=13
+action tind=13 aind= 0: dX=  1 dY= -2 endtheta= 13 (292.50 degs -> 292.50 degs) cost=  56 (mprimID   0:   1  -2  13) numofintermcells = 4 numofintercells=4
+action tind=13 aind= 1: dX=  3 dY= -6 endtheta= 13 (292.50 degs -> 292.50 degs) cost= 168 (mprimID   1:   3  -6  13) numofintermcells = 10 numofintercells=12
+action tind=13 aind= 2: dX= -1 dY=  2 endtheta= 13 (292.50 degs -> 292.50 degs) cost= 280 (mprimID   2:  -1   2  13) numofintermcells = 4 numofintercells=4
+action tind=13 aind= 3: dX=  4 dY= -5 endtheta= 14 (292.50 degs -> 308.13 degs) cost=20000 (mprimID   3:   4  -5  14) numofintermcells = 8 numofintercells=12
+action tind=13 aind= 4: dX=  2 dY= -7 endtheta= 12 (292.50 degs -> 270.00 degs) cost=20020 (mprimID   4:   2  -7  12) numofintermcells = 8 numofintercells=12
+action tind=13 aind= 5: dX=  0 dY=  0 endtheta= 14 (292.50 degs -> 315.00 degs) cost=1000 (mprimID   5:   0   0  14) numofintermcells = 1 numofintercells=0
+action tind=13 aind= 6: dX=  0 dY=  0 endtheta= 12 (292.50 degs -> 270.00 degs) cost=1001 (mprimID   6:   0   0  12) numofintermcells = 1 numofintercells=0
+action tind=13 aind= 7: dX=  2 dY=  1 endtheta= 13 (292.50 degs -> 292.50 degs) cost=  56 (mprimID   7:   2   1  13) numofintermcells = 4 numofintercells=4
+action tind=13 aind= 8: dX= -2 dY= -1 endtheta= 13 (292.50 degs -> 292.50 degs) cost=  56 (mprimID   8:  -2  -1  13) numofintermcells = 4 numofintercells=4
+action tind=13 aind= 9: dX= -4 dY=  5 endtheta= 14 (292.50 degs -> 308.13 degs) cost=5000 (mprimID   9:  -4   5  14) numofintermcells = 9 numofintercells=12
+action tind=13 aind=10: dX= -2 dY=  7 endtheta= 12 (292.50 degs -> 270.00 degs) cost=5005 (mprimID  10:  -2   7  12) numofintermcells = 8 numofintercells=11
+action tind=13 aind=11: dX=  4 dY= -5 endtheta= 13 (292.50 degs -> 292.50 degs) cost= 161 (mprimID  11:   4  -5  13) numofintermcells = 10 numofintercells=12
+action tind=13 aind=12: dX=  2 dY= -7 endtheta= 13 (292.50 degs -> 292.50 degs) cost= 183 (mprimID  12:   2  -7  13) numofintermcells = 10 numofintercells=12
+action tind=14 aind= 0: dX=  1 dY= -1 endtheta= 14 (315.00 degs -> 315.00 degs) cost=  36 (mprimID   0:   1  -1  14) numofintermcells = 2 numofintercells=3
+action tind=14 aind= 1: dX=  6 dY= -6 endtheta= 14 (315.00 degs -> 315.00 degs) cost= 213 (mprimID   1:   6  -6  14) numofintermcells = 7 numofintercells=18
+action tind=14 aind= 2: dX= -1 dY=  1 endtheta= 14 (315.00 degs -> 315.00 degs) cost= 180 (mprimID   2:  -1   1  14) numofintermcells = 2 numofintercells=3
+action tind=14 aind= 3: dX=  7 dY= -5 endtheta= 15 (315.00 degs -> 337.50 degs) cost=20000 (mprimID   3:   7  -5  15) numofintermcells = 9 numofintercells=14
+action tind=14 aind= 4: dX=  5 dY= -7 endtheta= 13 (315.00 degs -> 292.50 degs) cost=20000 (mprimID   4:   5  -7  13) numofintermcells = 9 numofintercells=15
+action tind=14 aind= 5: dX=  0 dY=  0 endtheta= 15 (315.00 degs -> 337.50 degs) cost=1000 (mprimID   5:   0   0  15) numofintermcells = 1 numofintercells=0
+action tind=14 aind= 6: dX=  0 dY=  0 endtheta= 13 (315.00 degs -> 292.50 degs) cost=1000 (mprimID   6:   0   0  13) numofintermcells = 1 numofintercells=0
+action tind=14 aind= 7: dX=  1 dY=  1 endtheta= 14 (315.00 degs -> 315.00 degs) cost=  36 (mprimID   7:   1   1  14) numofintermcells = 2 numofintercells=3
+action tind=14 aind= 8: dX= -1 dY= -1 endtheta= 14 (315.00 degs -> 315.00 degs) cost=  36 (mprimID   8:  -1  -1  14) numofintermcells = 2 numofintercells=3
+action tind=14 aind= 9: dX= -7 dY=  5 endtheta= 15 (315.00 degs -> 337.50 degs) cost=5000 (mprimID   9:  -7   5  15) numofintermcells = 9 numofintercells=15
+action tind=14 aind=10: dX= -5 dY=  7 endtheta= 13 (315.00 degs -> 292.50 degs) cost=5000 (mprimID  10:  -5   7  13) numofintermcells = 9 numofintercells=14
+action tind=14 aind=11: dX=  7 dY= -5 endtheta= 14 (315.00 degs -> 315.00 degs) cost= 216 (mprimID  11:   7  -5  14) numofintermcells = 10 numofintercells=16
+action tind=14 aind=12: dX=  5 dY= -7 endtheta= 14 (315.00 degs -> 315.00 degs) cost= 216 (mprimID  12:   5  -7  14) numofintermcells = 10 numofintercells=16
+action tind=15 aind= 0: dX=  2 dY= -1 endtheta= 15 (337.50 degs -> 337.50 degs) cost=  56 (mprimID   0:   2  -1  15) numofintermcells = 4 numofintercells=4
+action tind=15 aind= 1: dX=  6 dY= -3 endtheta= 15 (337.50 degs -> 337.50 degs) cost= 168 (mprimID   1:   6  -3  15) numofintermcells = 10 numofintercells=12
+action tind=15 aind= 2: dX= -2 dY=  1 endtheta= 15 (337.50 degs -> 337.50 degs) cost= 280 (mprimID   2:  -2   1  15) numofintermcells = 4 numofintercells=4
+action tind=15 aind= 3: dX=  5 dY= -4 endtheta= 14 (337.50 degs -> 321.88 degs) cost=20000 (mprimID   3:   5  -4  14) numofintermcells = 9 numofintercells=12
+action tind=15 aind= 4: dX=  7 dY= -2 endtheta=  0 (337.50 degs ->   0.00 degs) cost=20020 (mprimID   4:   7  -2   0) numofintermcells = 8 numofintercells=11
+action tind=15 aind= 5: dX=  0 dY=  0 endtheta= 14 (337.50 degs -> 315.00 degs) cost=1000 (mprimID   5:   0   0  14) numofintermcells = 1 numofintercells=0
+action tind=15 aind= 6: dX=  0 dY=  0 endtheta=  0 (337.50 degs ->   0.00 degs) cost=1001 (mprimID   6:   0   0   0) numofintermcells = 1 numofintercells=0
+action tind=15 aind= 7: dX= -1 dY= -2 endtheta= 15 (337.50 degs -> 337.50 degs) cost=  56 (mprimID   7:  -1  -2  15) numofintermcells = 4 numofintercells=4
+action tind=15 aind= 8: dX=  1 dY=  2 endtheta= 15 (337.50 degs -> 337.50 degs) cost=  56 (mprimID   8:   1   2  15) numofintermcells = 4 numofintercells=4
+action tind=15 aind= 9: dX= -5 dY=  4 endtheta= 14 (337.50 degs -> 321.88 degs) cost=5000 (mprimID   9:  -5   4  14) numofintermcells = 8 numofintercells=12
+action tind=15 aind=10: dX= -7 dY=  2 endtheta=  0 (337.50 degs ->   0.00 degs) cost=5005 (mprimID  10:  -7   2   0) numofintermcells = 8 numofintercells=12
+action tind=15 aind=11: dX=  5 dY= -4 endtheta= 15 (337.50 degs -> 337.50 degs) cost= 161 (mprimID  11:   5  -4  15) numofintermcells = 10 numofintercells=12
+action tind=15 aind=12: dX=  7 dY= -2 endtheta= 15 (337.50 degs -> 337.50 degs) cost= 183 (mprimID  12:   7  -2  15) numofintermcells = 10 numofintercells=12
+converting stateid path into coordinates:
+looking for 4 4 0 -> 4 3 0 (numofsuccs=6)
+succ: 5 4 0
+succ: 3 4 0
+succ: 4 4 1
+succ: 4 4 15
+succ: 4 5 0
+succ: 4 3 0
+0.113 0.113 0.000 (4 4 0 cost=0) first (heur=0)
+0.113 0.110 0.000 (4 4 0 cost=0) 
+0.113 0.107 0.000 (4 4 0 cost=0) 
+0.113 0.104 0.000 (4 4 0 cost=0) 
+0.113 0.101 0.000 (4 4 0 cost=0) 
+0.113 0.099 0.000 (4 3 0 cost=0) 
+0.113 0.096 0.000 (4 3 0 cost=0) 
+0.113 0.093 0.000 (4 3 0 cost=0) 
+0.113 0.090 0.000 (4 3 0 cost=0) 
+looking for 4 3 0 -> 4 2 0 (numofsuccs=6)
+succ: 5 3 0
+succ: 3 3 0
+succ: 4 3 1
+succ: 4 3 15
+succ: 4 4 0
+succ: 4 2 0
+0.113 0.088 0.000 (4 3 0 cost=0) first (heur=25)
+0.113 0.085 0.000 (4 3 0 cost=0) 
+0.113 0.082 0.000 (4 3 0 cost=0) 
+0.113 0.079 0.000 (4 3 0 cost=0) 
+0.113 0.076 0.000 (4 3 0 cost=0) 
+0.113 0.074 0.000 (4 2 0 cost=0) 
+0.113 0.071 0.000 (4 2 0 cost=0) 
+0.113 0.068 0.000 (4 2 0 cost=0) 
+0.113 0.065 0.000 (4 2 0 cost=0) 
+looking for 4 2 0 -> 5 2 0 (numofsuccs=6)
+succ: 5 2 0
+succ: 3 2 0
+succ: 4 2 1
+succ: 4 2 15
+succ: 4 3 0
+succ: 4 1 0
+0.113 0.062 0.000 (4 2 0 cost=0) first (heur=50)
+0.115 0.062 0.000 (4 2 0 cost=0) 
+0.118 0.062 0.000 (4 2 0 cost=0) 
+0.121 0.062 0.000 (4 2 0 cost=0) 
+0.124 0.062 0.000 (4 2 0 cost=0) 
+0.126 0.062 0.000 (5 2 0 cost=0) 
+0.129 0.062 0.000 (5 2 0 cost=0) 
+0.132 0.062 0.000 (5 2 0 cost=0) 
+0.135 0.062 0.000 (5 2 0 cost=0) 
+looking for 5 2 0 -> 5 1 0 (numofsuccs=5)
+succ: 4 2 0
+succ: 5 2 1
+succ: 5 2 15
+succ: 5 3 0
+succ: 5 1 0
+0.138 0.062 0.000 (5 2 0 cost=0) first (heur=55)
+0.138 0.060 0.000 (5 2 0 cost=0) 
+0.138 0.057 0.000 (5 2 0 cost=0) 
+0.138 0.054 0.000 (5 2 0 cost=0) 
+0.138 0.051 0.000 (5 2 0 cost=0) 
+0.138 0.049 0.000 (5 1 0 cost=0) 
+0.138 0.046 0.000 (5 1 0 cost=0) 
+0.138 0.043 0.000 (5 1 0 cost=0) 
+0.138 0.040 0.000 (5 1 0 cost=0) 
+looking for 5 1 0 -> 13 1 0 (numofsuccs=11)
+succ: 6 1 0
+succ: 13 1 0
+succ: 4 1 0
+succ: 13 2 1
+succ: 13 0 15
+succ: 5 1 1
+succ: 5 1 15
+succ: 5 2 0
+succ: 5 0 0
+succ: 13 2 0
+succ: 13 0 0
+0.138 0.038 0.000 (5 1 0 cost=0) first (heur=79)
+0.160 0.038 0.000 (6 1 0 cost=100) 
+0.182 0.038 0.000 (7 1 0 cost=100) 
+0.204 0.038 0.000 (8 1 0 cost=0) 
+0.226 0.038 0.000 (9 1 0 cost=0) 
+0.249 0.038 0.000 (9 1 0 cost=0) 
+0.271 0.038 0.000 (10 1 0 cost=0) 
+0.293 0.038 0.000 (11 1 0 cost=0) 
+0.315 0.038 0.000 (12 1 0 cost=0) 
+looking for 13 1 0 -> 13 2 0 (numofsuccs=7)
+succ: 14 1 0
+succ: 12 1 0
+succ: 13 1 1
+succ: 13 1 15
+succ: 13 2 0
+succ: 13 0 0
+succ: 5 0 1
+0.338 0.038 0.000 (13 1 0 cost=0) first (heur=237)
+0.338 0.040 0.000 (13 1 0 cost=0) 
+0.338 0.043 0.000 (13 1 0 cost=0) 
+0.338 0.046 0.000 (13 1 0 cost=0) 
+0.338 0.049 0.000 (13 1 0 cost=0) 
+0.338 0.051 0.000 (13 2 0 cost=0) 
+0.338 0.054 0.000 (13 2 0 cost=0) 
+0.338 0.057 0.000 (13 2 0 cost=0) 
+0.338 0.060 0.000 (13 2 0 cost=0) 
+looking for 13 2 0 -> 13 3 0 (numofsuccs=6)
+succ: 14 2 0
+succ: 12 2 0
+succ: 13 2 1
+succ: 13 2 15
+succ: 13 3 0
+succ: 13 1 0
+0.338 0.062 0.000 (13 2 0 cost=0) first (heur=230)
+0.338 0.065 0.000 (13 2 0 cost=0) 
+0.338 0.068 0.000 (13 2 0 cost=0) 
+0.338 0.071 0.000 (13 2 0 cost=0) 
+0.338 0.074 0.000 (13 2 0 cost=0) 
+0.338 0.076 0.000 (13 3 0 cost=0) 
+0.338 0.079 0.000 (13 3 0 cost=0) 
+0.338 0.082 0.000 (13 3 0 cost=0) 
+0.338 0.085 0.000 (13 3 0 cost=0) 
+looking for 13 3 0 -> 13 4 0 (numofsuccs=6)
+succ: 14 3 0
+succ: 12 3 0
+succ: 13 3 1
+succ: 13 3 15
+succ: 13 4 0
+succ: 13 2 0
+0.338 0.088 0.000 (13 3 0 cost=0) first (heur=226)
+0.338 0.090 0.000 (13 3 0 cost=0) 
+0.338 0.093 0.000 (13 3 0 cost=0) 
+0.338 0.096 0.000 (13 3 0 cost=0) 
+0.338 0.099 0.000 (13 3 0 cost=0) 
+0.338 0.101 0.000 (13 4 0 cost=0) 
+0.338 0.104 0.000 (13 4 0 cost=0) 
+0.338 0.107 0.000 (13 4 0 cost=0) 
+0.338 0.110 0.000 (13 4 0 cost=0) 
+looking for 13 4 0 -> 13 5 0 (numofsuccs=6)
+succ: 14 4 0
+succ: 12 4 0
+succ: 13 4 1
+succ: 13 4 15
+succ: 13 5 0
+succ: 13 3 0
+0.338 0.113 0.000 (13 4 0 cost=0) first (heur=225)
+0.338 0.115 0.000 (13 4 0 cost=0) 
+0.338 0.118 0.000 (13 4 0 cost=0) 
+0.338 0.121 0.000 (13 4 0 cost=0) 
+0.338 0.124 0.000 (13 4 0 cost=0) 
+0.338 0.126 0.000 (13 5 0 cost=0) 
+0.338 0.129 0.000 (13 5 0 cost=0) 
+0.338 0.132 0.000 (13 5 0 cost=0) 
+0.338 0.135 0.000 (13 5 0 cost=0) 
+looking for 13 5 0 -> 13 6 0 (numofsuccs=6)
+succ: 14 5 0
+succ: 12 5 0
+succ
