@@ -327,7 +327,6 @@ bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, i
     goalx_c /= downsample_;
     goaly_c /= downsample_;
     
-    SBPL_INFO("Auxillary Heuristic Grid Search");
     switch (OPENtype_) {
     case SBPL_2DGRIDSEARCH_OPENTYPE_HEAP:
         return SBPL2DGridSearch::search_withheap(Grid2D, obsthresh, startx_c, starty_c, goalx_c, goaly_c,

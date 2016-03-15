@@ -11,6 +11,14 @@ iostream
 -
 string
 -
+fstream
+-
+iterator
+-
+sstream
+-
+vector
+-
 sbpl/headers.h
 -
 algorithm

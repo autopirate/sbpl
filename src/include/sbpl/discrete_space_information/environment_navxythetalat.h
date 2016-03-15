@@ -449,7 +449,7 @@ protected:
     bool bNeedtoRecomputeGoalHeuristics; //set whenever grid2Dsearchfromgoal needs to be re-executed
     SBPL2DGridSearch* grid2Dsearchfromstart; //computes h-values that estimate distances from start x,y to all cells
     SBPL2DGridSearch* grid2Dsearchfromgoal; //computes h-values that estimate distances to goal x,y from all cells
-    SBPL2DGridSearch* grid2Dsearchfromgoal_h;
+    SBPL2DGridSearch* grid2Dsearchfromgoal_h; //computes h-values based on an additional heuristic
 
     virtual void ReadConfiguration(FILE* fCfg);
 

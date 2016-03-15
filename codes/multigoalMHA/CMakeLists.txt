@@ -8,6 +8,7 @@ link_directories(${SBPL_LIBRARY_DIRS})
 
 add_executable( multigoalMHA multigoalMHA.cpp  )
 
+##Add these lines to use C++11
 set_property(TARGET multigoalMHA PROPERTY CXX_STANDARD 11)
 set_property(TARGET multigoalMHA PROPERTY CXX_STANDARD_REQUIRED ON)
 

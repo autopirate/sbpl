@@ -59,7 +59,7 @@ MHAPlanner::MHAPlanner(
     m_initial_eps_mha(5.0),
     m_max_expansions(0),
     m_eps(5.0),   //w1
-    m_eps_mha(20.0), //w2
+    m_eps_mha(5.0), //w2
     m_eps_satisfied((double)INFINITECOST),
     m_num_expansions(0),
     m_elapsed(0.0),
@@ -166,8 +166,10 @@ int MHAPlanner::replan(
     SBPL_INFO("MHA Search parameters:");
     SBPL_INFO("  MHA Epsilon: %0.3f", m_initial_eps_mha);
     SBPL_INFO("  Max Expansions: %d", m_max_expansions);
-    m_eps = 5;
-    m_eps_mha = 50;     //w2
+    
+    //to set w1 and w2
+    m_eps = 2.5;
+    m_eps_mha = 2.5;     //w2
     environment_->EnsureHeuristicsUpdated(true); // TODO: support backwards search
 
     // TODO: pick up from where last search left off and detect lazy
