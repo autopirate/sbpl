@@ -27,6 +27,8 @@ using namespace std;
 
 #define DEBUG_P (1)
 
+#define COMPARE (0)
+
 struct envState{
 
 float x; //x location of the state in meters
@@ -114,17 +116,13 @@ void initializePlanner(SBPLPlanner*& planner,
 
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
 void initializePlanner(SBPLPlanner*& planner, 
                        EnvironmentNAVXYTHETALAT& env,
                        int start_id, int goal_id,
                        double initialEpsilon, 
                        bool bsearchuntilfirstsolution){
     // work this out later, what is bforwardsearch?
-<<<<<<< HEAD
     
     bool bsearch = false;
     
@@ -132,11 +130,6 @@ void initializePlanner(SBPLPlanner*& planner,
     planner = new ARAPlanner(&env, bsearch);
     
     
-=======
-    bool bsearch = false;
-    planner = new ARAPlanner(&env, bsearch);
- 
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
     // set planner properties
     if (planner->set_start(start_id) == 0) {
         printf("ERROR: failed to set start state\n");
@@ -197,7 +190,6 @@ void writeSolution(EnvironmentNAVXYTHETALAT& env, vector<int> solution_stateIDs,
 void populateGoals( std::vector<envState>& start, std::vector<envState>& goal)
  {  
     envState pt1,pt2;
-<<<<<<< HEAD
     pt1.th=0;
     pt2.th=0;
 
@@ -213,23 +205,10 @@ void populateGoals( std::vector<envState>& start, std::vector<envState>& goal)
     */
 
     start.push_back(pt1);
-=======
-
-
-    pt1.x=.11;
-    pt1.y=.11;
-    pt1.th=0;
-    start.push_back(pt1);
-    
-    pt2.x=.35;
-    pt2.y=.3;
-    pt2.th=0;
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
     goal.push_back(pt2);
 
     
  }
-<<<<<<< HEAD
 
  void populateRandomGoals (std::vector<envState>& start, std::vector<envState>& goal)
 {
@@ -268,9 +247,6 @@ void populateGoals( std::vector<envState>& start, std::vector<envState>& goal)
 
 
 void planxythetalat(char* envCfgFilename, char* motPrimFilename)
-=======
-void planxythetalat(EnvironmentNAVXYTHETALAT& env1)
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
 
 {
     double l1=0.01,w1=0.01,l2=0.02,w2=0.02;
@@ -287,13 +263,9 @@ void planxythetalat(EnvironmentNAVXYTHETALAT& env1)
     std::vector<envState> start,goal;
 
     //TODO: Populate start and goal states
-<<<<<<< HEAD
     
     //populateGoals(start,goal); //populate a single goal
     populateRandomGoals(start,goal);
-=======
-    populateGoals(start,goal);
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
 
 
    
@@ -301,7 +273,6 @@ void planxythetalat(EnvironmentNAVXYTHETALAT& env1)
     double initialEpsilon = 5.0;
     bool bsearchuntilfirstsolution = false;
     vector<int> solution_stateIDs1,solution_stateIDs2 ;
-<<<<<<< HEAD
     double allocated_time_secs = 5.0; // in seconds
     
     std::vector<pair<double,double> > trun,pathSize,expansions,eps;
@@ -330,22 +301,6 @@ void planxythetalat(EnvironmentNAVXYTHETALAT& env1)
         
         //-----------------MHA-----------------//
         cout<<endl<<"MHA goal:"<<i<<endl;
-=======
-    double allocated_time_secs = 30.0; // in seconds
-    SBPLPlanner* MHAplanner = NULL;
-    SBPLPlanner* ARAplanner=NULL ;
-    std::vector<pair<double,double> > trun,pathSize,expansions;
-    double MHAtime,MHAexpands,MHAlength;
-    double ARAtime,ARAexpands,ARAlength;
-
-  for (int i = 0; i<start.size(); i++)
-    {   
-
-        setEnvStartGoal(env1, start[i].x, start[i].y, start[i].th, goal[i].x, goal[i].y, goal[i].th, 
-                            start_id, goal_id);
-        
-        ///-----------------MHA-----------------//
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
         double initialEpsilon = 5.0;
         bool bsearchuntilfirstsolution = false;
         vector<int> solution_stateIDs1,solution_stateIDs2 ;
@@ -359,68 +314,49 @@ void planxythetalat(EnvironmentNAVXYTHETALAT& env1)
         writeSolution(env1, solution_stateIDs1, filename1.c_str());
 
         MHAtime=MHAplanner->get_initial_eps_planning_time();
-<<<<<<< HEAD
         MHAexpands=MHAplanner->get_n_expands_init_solution();
         MHAlength=solution_stateIDs1.size();
         MHAeps=MHAplanner->get_final_epsilon();
         delete MHAplanner;
 
 
-        
-        //-----------------ARA-----------------//
-        cout<<"ARA goal:"<<i<<endl;
-        initialEpsilon = 5.0;
-        bsearchuntilfirstsolution = false;
-        
-        
-        initializePlanner(ARAplanner, env2, start_id, goal_id, initialEpsilon, 
-                      bsearchuntilfirstsolution);
-
-        runPlanner(ARAplanner, allocated_time_secs, solution_stateIDs2);
-        std::string filename2("ARAsol"+std::to_string(i)+".txt"); // write out solutions
-        writeSolution(env2, solution_stateIDs2, filename2.c_str());
-        
-        ARAtime=ARAplanner->get_initial_eps_planning_time();
-        ARAexpands=ARAplanner->get_n_expands_init_solution();
-        ARAlength=solution_stateIDs2.size();
-        ARAeps=ARAplanner->get_final_epsilon();
-
-        delete ARAplanner;
-        
-=======
-        MHAexpands=MHAplanner->get_n_expands();
-        MHAlength=solution_stateIDs1.size();
-        delete MHAplanner;
-        ///-----------------ARA-----------------//
-        initialEpsilon = 5.0;
-        bsearchuntilfirstsolution = false;
-        initializePlanner(ARAplanner, env1, start_id, goal_id, initialEpsilon, 
-                      bsearchuntilfirstsolution);
-        runPlanner(ARAplanner, allocated_time_secs, solution_stateIDs2);
-        std::string filename2("ARAsol"+std::to_string(i)+".txt"); // write out solutions
-        writeSolution(env1, solution_stateIDs2, filename2.c_str());
-        
-        ARAtime=ARAplanner->get_initial_eps_planning_time();
-        ARAexpands=ARAplanner->get_n_expands();
-        ARAlength=solution_stateIDs2.size();
-
-        delete ARAplanner;
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
-        ///------------Store results---------//
-        if DEBUG_P
+        if COMPARE 
         {
-            env1.PrintTimeStat(stdout);
-            trun.push_back(std::make_pair(MHAtime, ARAtime));  
-            pathSize.push_back(std::make_pair(MHAlength,ARAlength));
-            expansions.push_back(std::make_pair(MHAexpands,ARAexpands));
-<<<<<<< HEAD
-            eps.push_back(std::make_pair(MHAeps,ARAeps));
-            cout<<"Expansions: "<<expansions.back().first<<" "<<expansions.back().second<<endl;
-            cout<<"Time to Run: "<<trun.back().first<<" "<<trun.back().second<<endl;;
-            cout<<"Path length: "<<pathSize.back().first<<" "<<pathSize.back().second<<endl;
-            cout<<"Epsilon: "<<eps.back().first<<" "<<eps.back().second<<endl;
+
+        //-----------------ARA-----------------//
+            cout<<"ARA goal:"<<i<<endl;
+            initialEpsilon = 5.0;
+            bsearchuntilfirstsolution = false;
+            
+            
+            initializePlanner(ARAplanner, env2, start_id, goal_id, initialEpsilon, 
+                          bsearchuntilfirstsolution);
+
+            runPlanner(ARAplanner, allocated_time_secs, solution_stateIDs2);
+            std::string filename2("ARAsol"+std::to_string(i)+".txt"); // write out solutions
+            writeSolution(env2, solution_stateIDs2, filename2.c_str());
+            
+            ARAtime=ARAplanner->get_initial_eps_planning_time();
+            ARAexpands=ARAplanner->get_n_expands_init_solution();
+            ARAlength=solution_stateIDs2.size();
+            ARAeps=ARAplanner->get_final_epsilon();
+
+            delete ARAplanner;
+            
+            ///------------Store results---------//
+            if DEBUG_P
+            {
+                env1.PrintTimeStat(stdout);
+                trun.push_back(std::make_pair(MHAtime, ARAtime));  
+                pathSize.push_back(std::make_pair(MHAlength,ARAlength));
+                expansions.push_back(std::make_pair(MHAexpands,ARAexpands));
+                eps.push_back(std::make_pair(MHAeps,ARAeps));
+                cout<<"Expansions: "<<expansions.back().first<<" "<<expansions.back().second<<endl;
+                cout<<"Time to Run: "<<trun.back().first<<" "<<trun.back().second<<endl;;
+                cout<<"Path length: "<<pathSize.back().first<<" "<<pathSize.back().second<<endl;
+                cout<<"Epsilon: "<<eps.back().first<<" "<<eps.back().second<<endl;
+            }
         }
-        
         
     }
 
@@ -432,15 +368,6 @@ void planxythetalat(EnvironmentNAVXYTHETALAT& env1)
 
     for ( vector <pair<double,double> >::const_iterator it = expansions.begin() ; it != expansions.end(); it++){
         output_file<<it->first<<" "<<it->second<<endl;
-=======
-
-            cout<<"Expansions: "<<expansions.back().first<<" "<<expansions.back().second<<endl;
-            cout<<"Time to Run: "<<trun.back().first<<" "<<trun.back().second<<endl;;
-            cout<<"Path length: "<<pathSize.back().first<<" "<<pathSize.back().second<<endl;
-
-        }
-        
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
     }
     output_file<<endl<<"Time"<<endl;
     output_file<<"MHA     ARA"<<endl;
@@ -478,9 +405,5 @@ int main(int argc, char *argv[])
     initializeEnv(env1, perimeter1,argv[1],argv[2]);
     initializeEnv(env2, perimeter1,argv[1],argv[2]);
     
-<<<<<<< HEAD
     planxythetalat(argv[1],argv[2]);
-=======
-    planxythetalat(env1);
->>>>>>> 8d8c489adac737747350b5320d357075c049ef40
 }
