@@ -11,6 +11,7 @@ iostream
 -
 string
 -
+<<<<<<< HEAD
 fstream
 -
 iterator
@@ -19,6 +20,8 @@ sstream
 -
 vector
 -
+=======
+>>>>>>> 8d8c489adac737747350b5320d357075c049ef40
 sbpl/headers.h
 -
 algorithm
