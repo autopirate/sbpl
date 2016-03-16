@@ -244,7 +244,7 @@ void populateGoals( std::vector<envState>& start, std::vector<envState>& goal)
 }
 
 
-void planxythetalat(EnvironmentNAVXYTHETALAT& env3, EnvironmentNAVXYTHETALAT& env4,char* envCfgFilename, char* motPrimFilename)
+void planxythetalat(char* envCfgFilename, char* motPrimFilename)
 
 {
     double l1=0.01,w1=0.01,l2=0.02,w2=0.02;
@@ -414,5 +414,5 @@ int main(int argc, char *argv[])
     initializeEnv(env1, perimeter1,argv[1],argv[2]);
     initializeEnv(env2, perimeter1,argv[1],argv[2]);
     
-    planxythetalat(env1,env2,argv[1],argv[2]);
+    planxythetalat(argv[1],argv[2]);
 }
