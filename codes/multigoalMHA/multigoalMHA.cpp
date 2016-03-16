@@ -355,21 +355,8 @@ void planxythetalat(char* envCfgFilename, char* motPrimFilename)
         
         
     }
-    // std::ofstream FILE("Results.txt", std::ios::out | std::ofstream::binary);
-    // std::copy(expansions.begin(), expansions.end(), std::ostreambuf_iterator<pair<double, double> >(FILE));
 
-    // std::ofstream output_file("Results.txt");
-    // std::ostream_iterator<pair<double,double> > output_iterator(output_file, "\n");
-    // std::copy(expansions.begin(), expansions.end(), output_iterator);
-    // //std::copy(trun.begin(), trun.end(), output_iterator);
-    //std::copy(pathSize.begin(), pathSize.end(), output_iterator);
-    //std::copy(eps.begin(), eps.end(), output_iterator);
-    //std::ofstream o("Results.txt");
-    
-    
-    //std::ofstream output_file("Results.txt");
-    //printPoints(expansions, output_file);
-
+    //Writing results from both searches to a file
     std::ofstream output_file("Results.txt");
 
     output_file<<"Expansions"<<endl;
