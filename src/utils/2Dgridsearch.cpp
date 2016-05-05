@@ -345,9 +345,10 @@ bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, i
     // inflation= inflation/ (2*0.025); //get the right resolution of infaltion- in terms of cells
 
 
-    int xinflation = length/(2*0.025); 
-    int yinflation=  width/ (2*0.025); //get the right resolution of infaltion- in terms of cells
-
+    float xinflation = length/(2*0.025); 
+    float yinflation=  width/ (2*0.025); //get the right resolution of infaltion- in terms of cells
+    SBPL_PRINTF("X Width: %f, Length: %f \n", width,length);
+    SBPL_PRINTF("X Inflation: %f, Y Inflation: %f \n", xinflation,yinflation);
 
     inflateGrid(Grid2D,Grid2D_h, obsthresh, xinflation, yinflation);
 
@@ -372,68 +373,68 @@ void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2
 {   
 
 
-    int factor=inflation;
-    int dirSize = 2*factor +1;
-    // int dir=[1,0,-1];
+int factor=inflation;
+int dirSize = 2*factor +1;
+// int dir=[1,0,-1];
 
-    int* dir = new (nothrow) int [dirSize];
+int* dir = new (nothrow) int [dirSize];
 
-    if ( dir == NULL)
+if ( dir == NULL)
+{
+    SBPL_ERROR("ERROR: Couldn't allocate memore while inflating");
+}
+
+else
+{   
+    int k=0;
+    for (int i= floor( (dirSize)/2); i< (dirSize); i++)
     {
-        SBPL_ERROR("ERROR: Couldn't allocate memore while inflating");
+        dir[i]=k;
+        dir[i-2*k]=-k;
+        k++;
     }
-
-    else
-    {   
-        int k=0;
-        for (int i= floor( (dirSize)/2); i< (dirSize); i++)
-        {
-            dir[i]=k;
-            dir[i-2*k]=-k;
-            k++;
-        }
-    }
+}
 
 
 
-    SBPL_PRINTF("Width: %d, Height: %d \n", width_,height_);
-    SBPL_PRINTF("Inflating...."); 
-    for (int i = 0; i < width_; i++) 
-    {
-        for (int j = 0; j < height_; j++) {
-                        
-            if ( Grid2D[i][j] >= obsthresh)
-            {   
+SBPL_PRINTF("Width: %d, Height: %d \n", width_,height_);
+SBPL_PRINTF("Inflating...."); 
+for (int i = 0; i < width_; i++) 
+{
+    for (int j = 0; j < height_; j++) {
+                    
+        if ( Grid2D[i][j] >= obsthresh)
+        {   
 
-                for (int x=0;x<dirSize; x++)
+            for (int x=0;x<dirSize; x++)
+            {
+                for (int y=0;y<dirSize; y++)
                 {
-                    for (int y=0;y<dirSize; y++)
-                    {
-                        int xcoord = i + x;
-                        int ycoord = j + y;
-                        if (xcoord>0 && ycoord >0 && xcoord < width_ && ycoord < height_) //only inflate if lies within the map 
-                        {   
-                               
-                            Grid2D_h[xcoord][ycoord]=obsthresh;
-                            
-                        }
-                    }    
-                }
-            }
-
-            else
-            {   
-                
-                Grid2D_h[i][j]= Grid2D[i][j];
+                    int xcoord = i + x;
+                    int ycoord = j + y;
+                    if (xcoord>0 && ycoord >0 && xcoord < width_ && ycoord < height_) //only inflate if lies within the map 
+                    {   
+                           
+                        Grid2D_h[xcoord][ycoord]=obsthresh;
+                        
+                    }
+                }    
             }
         }
-    }
 
-    // for (xind = 0; xind < EnvNAVXYTHETALATCfg.EnvWidth_c; xind++) {
-    //     for (yind = 0; yind < EnvNAVXYTHETALATCfg.EnvHeight_c; yind++) {
-    //         AddLevelGrid2D[levind][xind][yind] = NewGrid2D[xind][yind];
-    //     }
-    // }
+        else
+        {   
+            
+            Grid2D_h[i][j]= Grid2D[i][j];
+        }
+    }
+}
+
+// for (xind = 0; xind < EnvNAVXYTHETALATCfg.EnvWidth_c; xind++) {
+//     for (yind = 0; yind < EnvNAVXYTHETALATCfg.EnvHeight_c; yind++) {
+//         AddLevelGrid2D[levind][xind][yind] = NewGrid2D[xind][yind];
+//     }
+// }
 }
 
 
@@ -479,7 +480,8 @@ void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2
     SBPL_PRINTF("Inflating...."); 
     for (int i = 0; i < width_; i++) 
     {
-        for (int j = 0; j < height_; j++) {
+        for (int j = 0; j < height_; j++) 
+        {
                         
             if ( Grid2D[i][j] >= obsthresh)
             {   
@@ -500,12 +502,15 @@ void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2
                 }
             }
 
-            else
-            {   
+            // else
+            // {   
                 
-                Grid2D_h[i][j]= Grid2D[i][j];
-            }
+            //     Grid2D_h[i][j]= Grid2D[i][j];
+            // }
+
+            // printf("%d ",Grid2D_h[i][j]);
         }
+        // SBPL_PRINTF("\n");
     }
 
 }

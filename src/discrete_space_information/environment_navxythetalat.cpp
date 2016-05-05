@@ -1510,12 +1510,12 @@ void EnvironmentNAVXYTHETALATTICE::EnsureHeuristicsUpdated(bool bGoalHeuristics)
         grid2Dsearchfromgoal_h->search(EnvNAVXYTHETALATCfg.Grid2D, EnvNAVXYTHETALATCfg.cost_inscribed_thresh,
                                      EnvNAVXYTHETALATCfg.EndX_c, EnvNAVXYTHETALATCfg.EndY_c,
                                      EnvNAVXYTHETALATCfg.StartX_c, EnvNAVXYTHETALATCfg.StartY_c,
-                                     SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH,0.1,0.5);
+                                     SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH,0.1,0.4);
         
         grid2Dsearchfromgoal->search(EnvNAVXYTHETALATCfg.Grid2D, EnvNAVXYTHETALATCfg.cost_inscribed_thresh,
                                      EnvNAVXYTHETALATCfg.EndX_c, EnvNAVXYTHETALATCfg.EndY_c,
                                      EnvNAVXYTHETALATCfg.StartX_c, EnvNAVXYTHETALATCfg.StartY_c,
-                                     SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH,0.1,0.1);
+                                     SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH,0.02,0.02);
         
         
             
