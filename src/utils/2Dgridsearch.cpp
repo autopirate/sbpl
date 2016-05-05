@@ -341,10 +341,15 @@ bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, i
         Grid2D_h[x] = new unsigned char[height_];
     }
 
-    int inflation = width>length ? width :length; 
-    inflation= inflation/ (2*0.025); //get the right resolution of infaltion- in terms of cells
+    // int inflation = width>length ? width :length; 
+    // inflation= inflation/ (2*0.025); //get the right resolution of infaltion- in terms of cells
 
-    inflateGrid(Grid2D,Grid2D_h, obsthresh, inflation);
+
+    int xinflation = length/(2*0.025); 
+    int yinflation=  width/ (2*0.025); //get the right resolution of infaltion- in terms of cells
+
+
+    inflateGrid(Grid2D,Grid2D_h, obsthresh, xinflation, yinflation);
 
     switch (OPENtype_) {
     case SBPL_2DGRIDSEARCH_OPENTYPE_HEAP:
@@ -436,8 +441,8 @@ void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2
 {   
 
 
-    int xfactor=2;
-    int yfactor=2;
+    int xfactor=Xinflation;
+    int yfactor=Yinflation;
     int xdirSize = 2*xfactor +1;
     int ydirSize = 2*yfactor +1;
     // int dir=[1,0,-1];
