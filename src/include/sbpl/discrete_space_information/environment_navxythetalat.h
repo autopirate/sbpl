@@ -636,6 +636,8 @@ public:
      */
     virtual void PrintVars() { }
 
+    void clearEnv(); // clears the environment to be used again for a different goal
+
     const EnvNAVXYTHETALATHashEntry_t* GetStateEntry(int state_id) const;
 
 protected:
@@ -661,6 +663,8 @@ protected:
     virtual void InitializeEnvironment();
 
     virtual void PrintHashTableHist(FILE* fOut);
+
+    
 };
 
 #endif

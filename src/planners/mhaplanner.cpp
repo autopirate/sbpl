@@ -108,7 +108,7 @@ int MHAPlanner::set_start(int start_stateID)
 }
 
 int MHAPlanner::set_goal(int goal_stateID)
-{
+{   
     m_goal_state = get_state(goal_stateID);
     if (!m_goal_state) {
         return 0;
@@ -167,8 +167,15 @@ int MHAPlanner::replan(
     SBPL_INFO("  MHA Epsilon: %0.3f", m_initial_eps_mha);
     SBPL_INFO("  Max Expansions: %d", m_max_expansions);
     
+
+    //     Default values for parameters
+    //     initial_eps = 5.0;
+    //     final_eps = 1.0;
+    //     dec_eps = 0.2;
+    //     return_first_solution = false;
+    //     repair_time = -1;
     //to set w1 and w2
-    m_eps = 2.5;
+    m_eps = 2.5;   //w1
     m_eps_mha = 2.5;     //w2
     environment_->EnsureHeuristicsUpdated(true); // TODO: support backwards search
 
@@ -445,7 +452,8 @@ bool MHAPlanner::time_limit_reached() const
 }
 
 MHASearchState* MHAPlanner::get_state(int state_id)
-{
+{   
+    
     assert(state_id >= 0 && state_id <= environment_->StateID2IndexMapping.size());
     int* idxs = environment_->StateID2IndexMapping[state_id];
     if (idxs[MHAMDP_STATEID2IND] == -1) {
@@ -464,12 +472,17 @@ MHASearchState* MHAPlanner::get_state(int state_id)
 
         return s;
     }
+
     else {
         int ssidx = idxs[MHAMDP_STATEID2IND];
         return m_search_states[ssidx];
     }
 }
 
+void MHAPlanner::clearfornewsearch()
+{
+    clear();
+}
 void MHAPlanner::clear()
 {
     clear_open_lists();

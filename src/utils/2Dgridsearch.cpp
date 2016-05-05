@@ -169,34 +169,22 @@ bool SBPL2DGridSearch::createSearchStates2D(void)
         return false;
     }
 
-    /*
-    if (searchStates2D_h_ != NULL) {
-        SBPL_ERROR("ERROR: We already have a non-NULL search states array for the heuristics\n");
-        return false;
-    }
-    */
     searchStates2D_ = new SBPL_2DGridSearchState*[width_];
-    //searchStates2D_h_ = new SBPL_2DGridSearchState*[width_];
 
     for (x = 0; x < width_; x++) {
         searchStates2D_[x] = new SBPL_2DGridSearchState[height_];
-      //  searchStates2D_h_[x] = new SBPL_2DGridSearchState[height_];
 
         for (y = 0; y < height_; y++) {
             searchStates2D_[x][y].iterationaccessed = iteration_;
             searchStates2D_[x][y].x = x;
             searchStates2D_[x][y].y = y;
-        /*    
-            searchStates2D_h_[x][y].iterationaccessed = iteration_;
-            searchStates2D_h_[x][y].x = x;
-            searchStates2D_h_[x][y].y = y;
-          */  
             initializeSearchState2D(&searchStates2D_[x][y]);
             //initializeSearchState2D(&searchStates2D_h_[x][y]);
         }
     }
     return true;
 }
+
 
 inline void SBPL2DGridSearch::initializeSearchState2D(SBPL_2DGridSearchState* state2D)
 {
@@ -218,12 +206,9 @@ void SBPL2DGridSearch::destroy()
     if (searchStates2D_ != NULL) {
         for (int x = 0; x < width_; x++) {
             delete[] searchStates2D_[x];
-            //delete[] searchStates2D_h_[x];
         }
         delete[] searchStates2D_;
-        //delete[] searchStates2D_h_;
         searchStates2D_ = NULL;
-        //searchStates2D_h_ = NULL;
     }
     
 
@@ -341,6 +326,108 @@ bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, i
         throw new SBPL_Exception();
     };
     return false;
+}
+
+bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c, int goalx_c,
+                              int goaly_c, SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition,float inflation)
+{
+    startx_c /= downsample_;
+    starty_c /= downsample_;
+    goalx_c /= downsample_;
+    goaly_c /= downsample_;
+    
+    unsigned char** Grid2D_h = new unsigned char*[width_];
+    for (int x = 0; x < width_; x++) {
+        Grid2D_h[x] = new unsigned char[height_];
+    }
+
+    
+
+    inflateGrid(Grid2D,Grid2D_h, obsthresh, inflation);
+
+    switch (OPENtype_) {
+    case SBPL_2DGRIDSEARCH_OPENTYPE_HEAP:
+        return SBPL2DGridSearch::search_withheap(Grid2D_h, obsthresh, startx_c, starty_c, goalx_c, goaly_c,
+                                                 termination_condition);
+        break;
+    case SBPL_2DGRIDSEARCH_OPENTYPE_SLIDINGBUCKETS:
+        return SBPL2DGridSearch::search_withslidingbuckets(Grid2D_h, obsthresh, startx_c, starty_c, goalx_c, goaly_c,
+                                                           termination_condition);
+        break;
+    default:
+        SBPL_ERROR("ERROR: unknown data structure type = %d for OPEN2D\n", OPENtype_);
+        throw new SBPL_Exception();
+    };
+    return false;
+}
+
+
+void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2D_h, unsigned char obsthresh, float inflation)
+{   
+
+
+    int factor=2;
+    int dirSize = 2*factor +1;
+    // int dir=[1,0,-1];
+
+    int* dir = new (nothrow) int [dirSize];
+
+    if ( dir == NULL)
+    {
+        SBPL_ERROR("ERROR: Couldn't allocate memore while inflating");
+    }
+
+    else
+    {   
+        int k=0;
+        for (int i= floor( (dirSize)/2); i< (dirSize); i++)
+        {
+            dir[i]=k;
+            dir[i-2*k]=-k;
+            k++;
+        }
+    }
+
+
+
+    SBPL_PRINTF("Width: %d, Height: %d \n", width_,height_);
+    SBPL_PRINTF("Inflating...."); 
+    for (int i = 0; i < width_; i++) 
+    {
+        for (int j = 0; j < height_; j++) {
+                        
+            if ( Grid2D[i][j] >= obsthresh)
+            {   
+
+                for (int x=0;x<dirSize; x++)
+                {
+                    for (int y=0;y<dirSize; y++)
+                    {
+                        int xcoord = i + x;
+                        int ycoord = j + y;
+                        if (xcoord>0 && ycoord >0 && xcoord < width_ && ycoord < height_) //only inflate if lies within the map 
+                        {   
+                               
+                            Grid2D_h[xcoord][ycoord]=obsthresh;
+                            
+                        }
+                    }    
+                }
+            }
+
+            else
+            {   
+                
+                Grid2D_h[i][j]= Grid2D[i][j];
+            }
+        }
+    }
+
+    // for (xind = 0; xind < EnvNAVXYTHETALATCfg.EnvWidth_c; xind++) {
+    //     for (yind = 0; yind < EnvNAVXYTHETALATCfg.EnvHeight_c; yind++) {
+    //         AddLevelGrid2D[levind][xind][yind] = NewGrid2D[xind][yind];
+    //     }
+    // }
 }
 
 bool SBPL2DGridSearch::search_withheap(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c,

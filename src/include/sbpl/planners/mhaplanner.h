@@ -155,6 +155,8 @@ public:
     int     get_max_expansions() const;
     double  get_max_time() const;
 
+    virtual void clearfornewsearch();
+
     ///@}
 
 private:

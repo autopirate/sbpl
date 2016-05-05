@@ -1242,7 +1242,8 @@ bool EnvironmentNAVXYTHETALATTICE::IsValidConfiguration(int X, int Y, int Theta)
 
         if (x < 0 || x >= EnvNAVXYTHETALATCfg.EnvWidth_c || y < 0 || y >= EnvNAVXYTHETALATCfg.EnvHeight_c ||
             EnvNAVXYTHETALATCfg.Grid2D[x][y] >= EnvNAVXYTHETALATCfg.obsthresh)
-        {
+        {   
+            SBPL_PRINTF("Bad value at x =%d, y=%d)\n", x, y);
             return false;
         }
     }
@@ -1502,10 +1503,15 @@ void EnvironmentNAVXYTHETALATTICE::EnsureHeuristicsUpdated(bool bGoalHeuristics)
 
     if (bNeedtoRecomputeGoalHeuristics && bGoalHeuristics) {
         
-        grid2Dsearchfromgoal_h->search(EnvNAVXYTHETALATCfg.Grid2D, obsthresh_usr1,
+        // grid2Dsearchfromgoal_h->search(EnvNAVXYTHETALATCfg.Grid2D, obsthresh_usr1,
+        //                              EnvNAVXYTHETALATCfg.EndX_c, EnvNAVXYTHETALATCfg.EndY_c,
+        //                              EnvNAVXYTHETALATCfg.StartX_c, EnvNAVXYTHETALATCfg.StartY_c,
+        //                              SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH);
+        grid2Dsearchfromgoal_h->search(EnvNAVXYTHETALATCfg.Grid2D, EnvNAVXYTHETALATCfg.cost_inscribed_thresh,
                                      EnvNAVXYTHETALATCfg.EndX_c, EnvNAVXYTHETALATCfg.EndY_c,
                                      EnvNAVXYTHETALATCfg.StartX_c, EnvNAVXYTHETALATCfg.StartY_c,
-                                     SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH);
+                                     SBPL_2DGRIDSEARCH_TERM_CONDITION_TWOTIMESOPTPATH,1);
+        
         grid2Dsearchfromgoal->search(EnvNAVXYTHETALATCfg.Grid2D, EnvNAVXYTHETALATCfg.cost_inscribed_thresh,
                                      EnvNAVXYTHETALATCfg.EndX_c, EnvNAVXYTHETALATCfg.EndY_c,
                                      EnvNAVXYTHETALATCfg.StartX_c, EnvNAVXYTHETALATCfg.StartY_c,
@@ -2240,6 +2246,55 @@ void EnvironmentNAVXYTHETALAT::PrintState(int stateID, bool bVerbose, FILE* fOut
         SBPL_FPRINTF(fOut, "%.3f %.3f %.3f\n", DISCXY2CONT(HashEntry->X, EnvNAVXYTHETALATCfg.cellsize_m),
                      DISCXY2CONT(HashEntry->Y, EnvNAVXYTHETALATCfg.cellsize_m),
                      DiscTheta2Cont(HashEntry->Theta, EnvNAVXYTHETALATCfg.NumThetaDirs));
+}
+
+void EnvironmentNAVXYTHETALAT::clearEnv()
+{
+
+    if (grid2Dsearchfromstart != NULL) delete grid2Dsearchfromstart;
+    grid2Dsearchfromstart = NULL;
+
+    if (grid2Dsearchfromgoal != NULL) delete grid2Dsearchfromgoal;
+    grid2Dsearchfromgoal = NULL;
+
+    if (grid2Dsearchfromgoal_h != NULL) delete grid2Dsearchfromgoal_h;
+    grid2Dsearchfromgoal_h = NULL;
+
+
+    if (EnvNAVXYTHETALATCfg.Grid2D != NULL) {
+        for (int x = 0; x < EnvNAVXYTHETALATCfg.EnvWidth_c; x++)
+            delete[] EnvNAVXYTHETALATCfg.Grid2D[x];
+        delete[] EnvNAVXYTHETALATCfg.Grid2D;
+        EnvNAVXYTHETALATCfg.Grid2D = NULL;
+    }
+
+    //delete actions
+    if (EnvNAVXYTHETALATCfg.ActionsV != NULL) {
+        for (int tind = 0; tind < EnvNAVXYTHETALATCfg.NumThetaDirs; tind++)
+            delete[] EnvNAVXYTHETALATCfg.ActionsV[tind];
+        delete[] EnvNAVXYTHETALATCfg.ActionsV;
+        EnvNAVXYTHETALATCfg.ActionsV = NULL;
+    }
+    if (EnvNAVXYTHETALATCfg.PredActionsV != NULL) {
+        delete[] EnvNAVXYTHETALATCfg.PredActionsV;
+        EnvNAVXYTHETALATCfg.PredActionsV = NULL;
+    }
+     //// delete the states themselves first
+    // for (int i = 0; i < (int)StateID2CoordTable.size(); i++) {
+    //     delete StateID2CoordTable.at(i);
+    //     StateID2CoordTable.at(i) = NULL;
+    // }
+    // StateID2CoordTable.clear();
+
+    // //delete hashtable
+    // if (Coord2StateIDHashTable != NULL) {
+    //     delete[] Coord2StateIDHashTable;
+    //     Coord2StateIDHashTable = NULL;
+    // }
+    // if (Coord2StateIDHashTable_lookup != NULL) {
+    //     delete[] Coord2StateIDHashTable_lookup;
+    //     Coord2StateIDHashTable_lookup = NULL;
+    // }
 }
 
 EnvNAVXYTHETALATHashEntry_t* EnvironmentNAVXYTHETALAT::GetHashEntry_lookup(int X, int Y, int Theta)

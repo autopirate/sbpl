@@ -34,6 +34,9 @@
 #include <sbpl/planners/planner.h>
 #include <sbpl/utils/key.h>
 #include <sbpl/utils/utils.h>
+#include <math.h>
+#include <iostream>
+
 
 #define SBPL_2DGRIDSEARCH_NUMOF2DDIRS 16
 
@@ -130,6 +133,9 @@ public:
     bool search(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c, int goalx_c, int goaly_c,
                 SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition);
 
+    bool search(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c, int goalx_c, int goaly_c,
+                SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition,float inflation);
+
     /**
      * \brief print all the values
      */
@@ -206,6 +212,7 @@ private:
     inline void initializeSearchState2D(SBPL_2DGridSearchState* state2D);
     bool createSearchStates2D(void);
 
+
     /// Pointer to getCost function appropriate for resample size
     unsigned char (*getCost)(unsigned char**, int, int, int);
 
@@ -223,7 +230,6 @@ private:
     CSlidingBucket* OPEN2DBLIST_;
     CIntHeap* OPEN2D_;
     SBPL_2DGridSearchState** searchStates2D_;
-    SBPL_2DGridSearchState** searchStates2D_h_;
     int dx_[SBPL_2DGRIDSEARCH_NUMOF2DDIRS];
     int dy_[SBPL_2DGRIDSEARCH_NUMOF2DDIRS];
     //the intermediate cells through which the actions go 
@@ -257,6 +263,10 @@ private:
 
     //termination criterion used in the search
     SBPL_2DGRIDSEARCH_TERM_CONDITION term_condition_usedlast;
+
+    void inflateGrid(unsigned char** Grid2D,unsigned char** Grid2D_h,unsigned char obsthresh, float inflation);
+
+    
 };
 
 #endif
