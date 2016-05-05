@@ -134,7 +134,7 @@ public:
                 SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition);
 
     bool search(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c, int goalx_c, int goaly_c,
-                SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition,float inflation);
+                SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition,float width, float length);
 
     /**
      * \brief print all the values
@@ -265,6 +265,7 @@ private:
     SBPL_2DGRIDSEARCH_TERM_CONDITION term_condition_usedlast;
 
     void inflateGrid(unsigned char** Grid2D,unsigned char** Grid2D_h,unsigned char obsthresh, float inflation);
+    void inflateGrid(unsigned char** Grid2D,unsigned char** Grid2D_h,unsigned char obsthresh, float Xinflation,float Yinflation);
 
     
 };

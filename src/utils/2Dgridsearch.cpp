@@ -329,7 +329,7 @@ bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, i
 }
 
 bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c, int goalx_c,
-                              int goaly_c, SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition,float inflation)
+                              int goaly_c, SBPL_2DGRIDSEARCH_TERM_CONDITION termination_condition,float width, float length)
 {
     startx_c /= downsample_;
     starty_c /= downsample_;
@@ -341,7 +341,8 @@ bool SBPL2DGridSearch::search(unsigned char** Grid2D, unsigned char obsthresh, i
         Grid2D_h[x] = new unsigned char[height_];
     }
 
-    
+    int inflation = width>length ? width :length; 
+    inflation= inflation/ (2*0.025); //get the right resolution of infaltion- in terms of cells
 
     inflateGrid(Grid2D,Grid2D_h, obsthresh, inflation);
 
@@ -366,7 +367,7 @@ void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2
 {   
 
 
-    int factor=2;
+    int factor=inflation;
     int dirSize = 2*factor +1;
     // int dir=[1,0,-1];
 
@@ -428,6 +429,80 @@ void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2
     //         AddLevelGrid2D[levind][xind][yind] = NewGrid2D[xind][yind];
     //     }
     // }
+}
+
+
+void SBPL2DGridSearch::inflateGrid(unsigned char** Grid2D, unsigned char** Grid2D_h, unsigned char obsthresh, float Xinflation, float Yinflation)
+{   
+
+
+    int xfactor=2;
+    int yfactor=2;
+    int xdirSize = 2*xfactor +1;
+    int ydirSize = 2*yfactor +1;
+    // int dir=[1,0,-1];
+
+    int* xdir = new (nothrow) int [xdirSize];
+    int* ydir = new (nothrow) int [ydirSize];
+
+    if ( xdir == NULL || ydir ==NULL)
+    {
+        SBPL_ERROR("ERROR: Couldn't allocate memore while inflating");
+    }
+
+    else
+    {   
+        int k=0;
+        for (int i= floor( (xdirSize)/2); i< (xdirSize); i++)
+        {
+            xdir[i]=k;
+            xdir[i-2*k]=-k;
+            k++;
+        }
+        k=0;
+        for (int i= floor( (ydirSize)/2); i< (ydirSize); i++)
+        {
+            ydir[i]=k;
+            ydir[i-2*k]=-k;
+            k++;
+        }
+    }
+
+
+
+    SBPL_PRINTF("Width: %d, Height: %d \n", width_,height_);
+    SBPL_PRINTF("Inflating...."); 
+    for (int i = 0; i < width_; i++) 
+    {
+        for (int j = 0; j < height_; j++) {
+                        
+            if ( Grid2D[i][j] >= obsthresh)
+            {   
+
+                for (int x=0;x<xdirSize; x++)
+                {
+                    for (int y=0;y<ydirSize; y++)
+                    {
+                        int xcoord = i + x;
+                        int ycoord = j + y;
+                        if (xcoord>0 && ycoord >0 && xcoord < width_ && ycoord < height_) //only inflate if lies within the map 
+                        {   
+                               
+                            Grid2D_h[xcoord][ycoord]=obsthresh;
+                            
+                        }
+                    }    
+                }
+            }
+
+            else
+            {   
+                
+                Grid2D_h[i][j]= Grid2D[i][j];
+            }
+        }
+    }
+
 }
 
 bool SBPL2DGridSearch::search_withheap(unsigned char** Grid2D, unsigned char obsthresh, int startx_c, int starty_c,
